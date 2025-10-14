@@ -6,32 +6,13 @@
  */
 
 // ==================== 配置区域 ====================
-$config = [
+$config = array(
     'username' => 'admin',           // 修改为您的用户名
     'password' => 'YourStrongPassword123!', // 修改为强密码
     'base_dir' => __DIR__,           // 限制操作目录
     'max_upload_size' => 10 * 1024 * 1024, // 10MB
-    'allowed_extensions' => ['php', 'html', 'css', 'js', 'txt', 'jpg', 'png', 'gif', 'zip']
-];
-
-// ==================== 安全验证 ====================
-session_start();
-
-// 登录验证
-if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
-    if (isset($_POST['username']) && isset($_POST['password'])) {
-        if ($_POST['username'] === $config['username'] && $_POST['password'] === $config['password']) {
-            $_SESSION['logged_in'] = true;
-        } else {
-            $error = "用户名或密码错误";
-        }
-    }
-    
-    if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
-        showLoginForm($error ?? '');
-        exit;
-    }
-}
+    'allowed_extensions' => array('php', 'html', 'css', 'js', 'txt', 'jpg', 'png', 'gif', 'zip')
+);
 
 // ==================== 功能函数 ====================
 function sanitizePath($path, $baseDir) {
@@ -58,12 +39,43 @@ function formatSize($bytes) {
 
 function getFileIcon($file) {
     $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
-    $icons = [
+    $icons = array(
         'php' => '📄', 'html' => '🌐', 'css' => '🎨', 'js' => '⚡',
         'txt' => '📝', 'jpg' => '🖼️', 'png' => '🖼️', 'gif' => '🖼️',
         'zip' => '📦', 'pdf' => '📕', 'doc' => '📘', 'xls' => '📗'
-    ];
-    return $icons[$ext] ?? (is_dir($file) ? '📁' : '📄');
+    );
+    return isset($icons[$ext]) ? $icons[$ext] : (is_dir($file) ? '📁' : '📄');
+}
+
+// 递归删除目录函数
+function deleteDirectory($dir) {
+    if (!is_dir($dir)) return false;
+    $files = array_diff(scandir($dir), array('.', '..'));
+    foreach ($files as $file) {
+        $path = $dir . DIRECTORY_SEPARATOR . $file;
+        is_dir($path) ? deleteDirectory($path) : unlink($path);
+    }
+    return rmdir($dir);
+}
+
+// ==================== 安全验证 ====================
+session_start();
+
+// 登录验证
+if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+    $error = '';
+    if (isset($_POST['username']) && isset($_POST['password'])) {
+        if ($_POST['username'] === $config['username'] && $_POST['password'] === $config['password']) {
+            $_SESSION['logged_in'] = true;
+        } else {
+            $error = "用户名或密码错误";
+        }
+    }
+    
+    if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+        showLoginForm($error);
+        exit;
+    }
 }
 
 // ==================== 主要逻辑 ====================
@@ -136,17 +148,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $delete_path = sanitizePath($_POST['delete_path'], $config['base_dir']);
         if ($delete_path !== $config['base_dir']) { // 防止删除根目录
             if (is_dir($delete_path)) {
-                // 递归删除目录
-                function deleteDirectory($dir) {
-                    if (!is_dir($dir)) return false;
-                    $files = array_diff(scandir($dir), ['.', '..']);
-                    foreach ($files as $file) {
-                        $path = $dir . DIRECTORY_SEPARATOR . $file;
-                        is_dir($path) ? deleteDirectory($path) : unlink($path);
-                    }
-                    return rmdir($dir);
-                }
-                
                 if (deleteDirectory($delete_path)) {
                     $message = "目录删除成功";
                 } else {
@@ -329,11 +330,15 @@ if ($edit_mode) {
         </div>
 
         <?php if (isset($_GET['logout'])): ?>
-            <?php session_destroy(); header('Location: ?'); exit; ?>
+            <?php 
+            session_destroy(); 
+            echo '<script>window.location.href = "?";</script>';
+            exit; 
+            ?>
         <?php endif; ?>
 
         <?php if ($message): ?>
-            <div class="message <?php echo strpos($message, '成功') !== false ? 'success' : 'error'; ?>">
+            <div class="message <?php echo (strpos($message, '成功') !== false) ? 'success' : 'error'; ?>">
                 <?php echo htmlspecialchars($message); ?>
             </div>
         <?php endif; ?>
@@ -346,10 +351,10 @@ if ($edit_mode) {
         <!-- 面包屑导航 -->
         <div class="breadcrumb">
             <?php
-            $path_parts = [];
+            $path_parts = array();
             $temp_path = $current_dir;
             while ($temp_path && $temp_path !== dirname($config['base_dir'])) {
-                $path_parts[] = ['name' => basename($temp_path), 'path' => $temp_path];
+                $path_parts[] = array('name' => basename($temp_path), 'path' => $temp_path);
                 $temp_path = dirname($temp_path);
             }
             $path_parts = array_reverse($path_parts);
@@ -395,58 +400,62 @@ if ($edit_mode) {
         <!-- 文件列表 -->
         <div class="file-list">
             <?php
-            $items = scandir($current_dir);
-            $items = array_diff($items, ['.', '..']);
-            
-            // 排序：目录在前，文件在后
-            $dirs = [];
-            $files = [];
-            foreach ($items as $item) {
-                $item_path = $current_dir . DIRECTORY_SEPARATOR . $item;
-                if (is_dir($item_path)) {
-                    $dirs[] = $item;
-                } else {
-                    $files[] = $item;
+            $items = @scandir($current_dir);
+            if ($items === false) {
+                echo '<div class="file-item" style="text-align: center; color: #666;">无法读取目录</div>';
+            } else {
+                $items = array_diff($items, array('.', '..'));
+                
+                // 排序：目录在前，文件在后
+                $dirs = array();
+                $files = array();
+                foreach ($items as $item) {
+                    $item_path = $current_dir . DIRECTORY_SEPARATOR . $item;
+                    if (is_dir($item_path)) {
+                        $dirs[] = $item;
+                    } else {
+                        $files[] = $item;
+                    }
                 }
-            }
-            
-            sort($dirs);
-            sort($files);
-            $items = array_merge($dirs, $files);
-            
-            foreach ($items as $item) {
-                $item_path = $current_dir . DIRECTORY_SEPARATOR . $item;
-                $is_dir = is_dir($item_path);
-                $file_size = $is_dir ? '-' : formatSize(filesize($item_path));
-                $file_time = date('Y-m-d H:i:s', filemtime($item_path));
-                ?>
-                <div class="file-item">
-                    <div class="file-icon"><?php echo getFileIcon($item); ?></div>
-                    <div class="file-name">
-                        <?php if ($is_dir): ?>
-                            <a href="?dir=<?php echo urlencode($item_path); ?>"><strong><?php echo htmlspecialchars($item); ?></strong></a>
-                        <?php else: ?>
-                            <?php echo htmlspecialchars($item); ?>
-                        <?php endif; ?>
+                
+                sort($dirs);
+                sort($files);
+                $items = array_merge($dirs, $files);
+                
+                foreach ($items as $item) {
+                    $item_path = $current_dir . DIRECTORY_SEPARATOR . $item;
+                    $is_dir = is_dir($item_path);
+                    $file_size = $is_dir ? '-' : formatSize(@filesize($item_path));
+                    $file_time = date('Y-m-d H:i:s', @filemtime($item_path));
+                    ?>
+                    <div class="file-item">
+                        <div class="file-icon"><?php echo getFileIcon($item); ?></div>
+                        <div class="file-name">
+                            <?php if ($is_dir): ?>
+                                <a href="?dir=<?php echo urlencode($item_path); ?>"><strong><?php echo htmlspecialchars($item); ?></strong></a>
+                            <?php else: ?>
+                                <?php echo htmlspecialchars($item); ?>
+                            <?php endif; ?>
+                        </div>
+                        <div class="file-size"><?php echo $file_size; ?></div>
+                        <div class="file-time"><?php echo $file_time; ?></div>
+                        <div class="file-actions">
+                            <?php if (!$is_dir): ?>
+                                <a href="<?php echo htmlspecialchars($item_path); ?>" target="_blank" class="btn">查看</a>
+                                <a href="?edit=<?php echo urlencode($item_path); ?>" class="btn btn-warning">编辑</a>
+                            <?php endif; ?>
+                            <form method="post" class="action-form" onsubmit="return confirm('确定要删除 <?php echo htmlspecialchars($item); ?> 吗？');">
+                                <input type="hidden" name="delete_path" value="<?php echo htmlspecialchars($item_path); ?>">
+                                <button type="submit" class="btn btn-danger">删除</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="file-size"><?php echo $file_size; ?></div>
-                    <div class="file-time"><?php echo $file_time; ?></div>
-                    <div class="file-actions">
-                        <?php if (!$is_dir): ?>
-                            <a href="<?php echo htmlspecialchars($item_path); ?>" target="_blank" class="btn">查看</a>
-                            <a href="?edit=<?php echo urlencode($item_path); ?>" class="btn btn-warning">编辑</a>
-                        <?php endif; ?>
-                        <form method="post" class="action-form" onsubmit="return confirm('确定要删除 <?php echo htmlspecialchars($item); ?> 吗？');">
-                            <input type="hidden" name="delete_path" value="<?php echo htmlspecialchars($item_path); ?>">
-                            <button type="submit" class="btn btn-danger">删除</button>
-                        </form>
-                    </div>
-                </div>
-                <?php
-            }
-            
-            if (empty($items)) {
-                echo '<div class="file-item" style="text-align: center; color: #666;">目录为空</div>';
+                    <?php
+                }
+                
+                if (empty($items)) {
+                    echo '<div class="file-item" style="text-align: center; color: #666;">目录为空</div>';
+                }
             }
             ?>
         </div>

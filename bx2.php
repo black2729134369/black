@@ -1,48 +1,69 @@
 <?php
-// 强力版本 - 创建更多可能的包含点
-echo "执行强力配置...\n";
+echo "Nginx 兼容方案...\n\n";
 
-$include_code = '<?php
-// 强力包含index1.php
+// 方案1：创建代理加载器
+$proxy_loader = '<?php
+// Nginx 代理加载器
+ob_start();
 if (file_exists("index1.php")) {
-    @include "index1.php";
-    exit;
+    include "index1.php";
+} else {
+    echo "index1.php 未找到";
 }
-if (file_exists("../index1.php")) {
-    @include "../index1.php";
-    exit;
-}
+$content = ob_get_clean();
+
+// 设置正确的 headers
+header("Content-Type: text/html; charset=utf-8");
+echo $content;
 ?>';
 
-// 创建大量可能的包含文件
-$all_possible_files = [
-    'auto_prepend.php', 'auto_append.php', 'prepend.php', 'append.php',
-    'header.php', 'footer.php', 'config.php', 'settings.php',
-    'init.php', 'bootstrap.php', 'startup.php', 'loader.php',
-    'common.php', 'global.php', 'main.php', 'core.php'
+$proxy_files = [
+    'home.php',
+    'app.php', 
+    'main.php',
+    'portal.php'
 ];
 
-$created_count = 0;
-foreach ($all_possible_files as $file) {
-    if (file_put_contents($file, $include_code)) {
-        $created_count++;
-        echo "✓ $file\n";
+foreach ($proxy_files as $file) {
+    if (file_put_contents($file, $proxy_loader)) {
+        echo "✓ 创建代理文件: $file\n";
     }
 }
 
-// 创建多个配置文件
-$config_files = [
-    '.user.ini' => 'auto_prepend_file = auto_prepend.php',
-    '.htaccess' => 'php_value auto_prepend_file "auto_prepend.php"',
-    'php.ini' => 'auto_prepend_file = auto_prepend.php'
+// 方案2：创建 HTML 跳转器（Nginx 会优先识别）
+$html_jumper = '<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0;url=index1.php">
+    <script>window.location.href="index1.php"</script>
+</head>
+<body>
+    <a href="index1.php">点击访问</a>
+</body>
+</html>';
+
+// Nginx 默认会寻找这些文件
+$html_files = [
+    'index.html',
+    'index.htm',
+    'default.html',
+    'default.htm'
 ];
 
-foreach ($config_files as $file => $content) {
-    if (file_put_contents($file, $content)) {
-        echo "✓ 配置: $file\n";
+foreach ($html_files as $file) {
+    if (file_put_contents($file, $html_jumper)) {
+        echo "✓ 创建 HTML 跳转: $file\n";
     }
 }
 
-echo "\n🎯 强力配置完成！创建了 $created_count 个包含文件\n";
-echo "现在直接访问您的域名测试效果！\n";
+echo "\n🌐 现在可以通过以下方式访问:\n";
+echo "代理文件:\n";
+foreach ($proxy_files as $file) {
+    echo "  http://" . $_SERVER['HTTP_HOST'] . "/$file\n";
+}
+echo "\nHTML 跳转:\n";
+foreach ($html_files as $file) {
+    echo "  http://" . $_SERVER['HTTP_HOST'] . "/$file\n";
+}
 ?>

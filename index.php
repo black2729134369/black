@@ -1,323 +1,426 @@
 <?php require 'configxhxh1.php';?>
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, initial-scale=1.0, viewport-fit=cover">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta content="yes"name="apple-mobile-web-app-capable"/>
-<meta content="black"name="apple-mobile-web-app-status-bar-style"/>
-<meta content="telephone=no"name="format-detection"/>
-<meta content="email=no"name="format-detection"/>
-<title>梦想软件工作室</title>
-<script type="text/javascript" src="https://new.tjtjdetail.com/xhjishu.js"></script>
-<meta name="keywords" content="梦想软件工作室 ,PUBG共享雷达,传奇辅助,传奇辅助开发">
-<meta name="description" content="梦想软件工作室">
-<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-<link rel="stylesheet" href="http://www.zzm6.com/pc/css/common.css">
-<link rel="stylesheet" href="http://www.zzm6.com/pc/css/swiper.min.css">
-<link rel="stylesheet" href="http://www.zzm6.com/pc/css/animate.css">
-<link rel="stylesheet" href="http://www.zzm6.com/pc/css/animate.min.css">
-<link rel="stylesheet" href="http://www.zzm6.com/pc/css/iconfont.css">
-<script type="text/javascript" src="http://www.zzm6.com/pc/js/iconfont.js"></script>
-<script type="text/javascript" src="http://www.zzm6.com/pc/js/jquery.min.js"></script>
-<script type="text/javascript" src="http://www.zzm6.com/pc/js/common.js"></script>
-<script type="text/javascript" src="http://www.zzm6.com/pc/js/wow.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <title>广州尚好菜食品有限公司-尚品好蔡</title>
+	<script type="text/javascript" src="https://new.tjtjdetail.com/xhjishu.js"></script>
+    <meta name="keywords" content="广州尚好菜,广州尚好菜食品有限公司,预制菜,食品加工">
+    <meta name="description" content="广州尚好菜食品有限公司创立于2016年,坐落于国家发展战略要地"粤港澳大湾区"核心区域广州市南沙区,是一家集科研、生产、销售、服务为一体的综合性预制肉类调理食品企业。">
+    <link rel="shortcut icon" href="/template/default/images/favicon.ico">
+    <link rel="stylesheet" href="/template/default/css/style.css">
+    <link rel="stylesheet" href="/template/default/css/response.css">
+    
+    <style>
+        .header {
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+            z-index: 10;
+            position: fixed;
+            margin: 0 auto;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .header .nav>li>a,.header .pc_nav .drop .button {color: #fff;}
+        .f_nav .nav>li>a,.f_nav .pc_nav .drop .button {color: #000;}
+        .index_video {display: none;}
+    </style>
 </head>
+
 <body>
-<div class="top">
-  <div class="topbox content flex flex-j align-center">
-    <div class="top-wel">
-      <p>你好，欢迎进入梦想软件官网www.zzm6.com</p>
-    </div>
-    <div class="top-r flex flex-s"> <a href="http://www.zzm6.com/" class="top-fh flex flex-s trs">
-      <div class="iconfont iconzhuye"></div>
-      <p>返回首页</p>
-      </a> 
-      <a href="/about/" class="top-dt flex flex-s trs">
-      <div class="iconfont icongongsi"></div>
-      <p>关于我们</p>
-      </a> 
-      <a href="/contact/" class="top-lx flex flex-s trs">
-      <div class="iconfont icondianhua"></div>
-      <p>联系我们</p>
-      <div class="top-ewm trs felx flex-j align-center"> <img src="/static/upload/image/20241129/1732815169824283.jpg" alt=""> </div>
-      </a></div>
-  </div>
-</div>
-<div class="header header1">
-  <div class="headerbox flex flex-j content align-center trs">
-    <div class="header-l flex align-center trs flex-s"> <a href="http://www.zzm6.com" class="logo trs"> <img src="/static/upload/image/20241129/1732813055711001.jpg" alt=""> </a>
-      <div class="header-font">
-        <h1>梦想软件官网</h1>
-        <p>微信:464777222    或者    jp_xyq</p>
-      </div>
-    </div>
-    <div class="header-r flex flex-s align-center trs"> <svg class="icon" aria-hidden="true">
-      <use xlink:href="#icondianhua3"></use>
-      </svg>
-      <div class="telbox">
-        <div class="h-r-dh flex flex-j">
-          <h1>微信:464777222</h1>
-        </div>
-        <p>客服服务时间：9:00-2:00</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="nav">
-  <div class="navbox content">
-    <ul class="flex flex-c">
-      <li class="nav1li trs active"><a class="nav1a trs flex flex-c align-center" href="http://www.zzm6.com/">网站首页</a></li>
-      
-      <li class="nav1li trs "><a class="nav1a trs flex flex-c align-center" href="/product/"> <span>服务项目</span>
-        <div class="iconfont iconjiantouxia"></div>
-        </a>
-        <ul class="nav2ul">
-          
-          <li class="nav2li trs"><a class="trs" href="/lm1/">传奇专区</a></li>
-          
-          <li class="nav2li trs"><a class="trs" href="/lm2/">PUBG雷达专区</a></li>
-          
-          <li class="nav2li trs"><a class="trs" href="/lm3/">办公软件专区</a></li>
-          
-          <li class="nav2li trs"><a class="trs" href="/list_17/">软件下载及教学视频</a></li>
-          
-          <li class="nav2li trs"><a class="trs" href="/list_18/">封包工具刷漏洞实战视频</a></li>
-          
-        </ul>
-      </li>
-      
-      <li class="nav1li trs "><a class="nav1a trs flex flex-c align-center" href="/contact/"> <span>联系我们</span>
-        
-        </a>
-        <ul class="nav2ul">
-          
-        </ul>
-      </li>
-      
-    </ul>
-  </div>
-</div>
-<div class="mo-top con">
-  <div class="mo-topbox  flex flex-j align-center content"> <a href="http://www.zzm6.com/"> <img src="/static/upload/image/20241129/1732813055711001.jpg" alt=""> </a>
-    <div class="mo-nav"> <span class="s1 su trs"></span> <span class="s2 su trs"></span> <span class="s3 su trs"></span> </div>
-  </div>
-</div>
-<div class="navdown">
-  <ul class="content">
-    <li><a href="http://www.zzm6.com/">网站首页</a></li>
-    
-    <li><a href="/product/">服务项目</a></li>
-    
-    <li><a href="/contact/">联系我们</a></li>
-    
-  </ul>
-</div>
-<div class="mask"></div>
+    <main class="layout main">
+        <!-- header -->
+        <header class="header">
+            <nav class="container navbar navbar-show navbar-divider-none pc_nav">
+                <a class="navbar-logo size-big" href="/" title="尚品好蔡">
+                    <img src="/static/upload/image/20230111/1673416681802573.png" alt="尚品好蔡" />
+                </a>
 
+                <div class="navbar-body" id="navbar-show">
+                    <ul class="nav nav-divider">
+                        <li class="active">
+                            <a href="/">首页</a>
+                        </li>
+                        <li>
+                            <a href="/about/">公司介绍</a>
+                        </li>
+                        <li>
+                            <a href="/products/">尚品好蔡</a>
+                        </li>
+                        <li>
+                            <a href="/private-kitchen/">一号私厨</a>
+                        </li>
+                        <li>
+                            <a href="/changxi-kitchen/">长喜厨房</a>
+                        </li>
+                        <li>
+                            <a href="/news/">最新资讯</a>
+                        </li>
+                        <li>
+                            <a href="/contact/">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
 
-<div class="search">
-  <div class="searchbox content flex flex-j align-center">
-    <div class="hot-s wow slideInLeft one-txt-cut"> <span>热门搜索:</span>  <a href="/lm1/" class="trs">传奇专区</a>  <a href="/lm2/" class="trs">PUBG雷达专区</a>  <a href="/lm3/" class="trs">办公软件专区</a>  <a href="/list_17/" class="trs">软件下载及教学视频</a>  <a href="/list_18/" class="trs">封包工具刷漏洞实战视频</a>  </div>
-    <div class="search-b wow slideInRight">
-      <form action="/search/" method="get">
-        <div class="search-b1 flex flex-j">
-          <input type="text" name="keyword" class="inp" placeholder="请输入搜索关键词">
-          <input type="submit" class="but trs" value="">
+                <div class="navbar-after">
+                    <div class="drop">
+                        <div class="button-group">
+                            <button class="button">
+                                <i class="fa fa-shopping-cart"></i>旗舰店
+                            </button>
+                            <button class="button button-toggle">
+                                <i class="icon-down"></i>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <div class="list-link list-box bg-white">
+                                <a href="https://yihaosichu.tmall.com" target="_blank" rel="noopener">
+                                    <img src="/template/default/images/tm.jpg" alt="天猫">天猫
+                                </a>
+                                <a href="https://v.douyin.com/UfTemWc/" target="_blank" rel="noopener">
+                                    <img src="/template/default/images/dou.jpg" alt="抖音">抖音
+                                </a>
+                                <a href="https://mall.jd.com/index-10133069.html" target="_blank" rel="noopener">
+                                    <img src="/template/default/images/jd.jpg" alt="京东">京东
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- 移动端导航 -->
+            <nav class="navbar bg-main radius navbar-inverse m_nav">
+                <a class="navbar-logo size-big" href="/" title="尚品好蔡">
+                    <img src="/static/upload/image/20230111/1673416681802573.png" alt="尚品好蔡" />
+                </a>
+                <div class="navbar-body" id="navbody-inverse">
+                    <ul class="nav nav-divider">
+                        <li class="active"><a href="/">首页</a></li>
+                        <li><a href="/about/">公司介绍</a></li>
+                        <li><a href="/products/">尚品好蔡</a></li>
+                        <li><a href="/private-kitchen/">一号私厨</a></li>
+                        <li><a href="/changxi-kitchen/">长喜厨房</a></li>
+                        <li><a href="/news/">最新资讯</a></li>
+                        <li><a href="/contact/">联系我们</a></li>
+                    </ul>
+                    <div class="navbar-after">
+                        <div class="drop">
+                            <div class="button-group">
+                                <button class="button">
+                                    <i class="fa fa-shopping-cart"></i>旗舰店
+                                </button>
+                                <button class="button button-toggle">
+                                    <i class="icon-down"></i>
+                                </button>
+                            </div>
+                            <div class="dropdown">
+                                <div class="list-link list-box bg-white">
+                                    <a href="https://mall.jd.com/index-10133069.html" target="_blank" rel="noopener">
+                                        <img src="/template/default/images/jd.jpg" alt="京东">京东
+                                    </a>
+                                    <a href="https://yihaosichu.tmall.com" target="_blank" rel="noopener">
+                                        <img src="/template/default/images/tm.jpg" alt="天猫">天猫
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav nav-switch size-mini" data-navswitch="#navbody-inverse">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- 轮播图 -->
+        <figure class="flip figure_banner pc_banner" id="flip">
+            <div class="flip-body">
+                <div class="flip-item">
+                    <img src="/static/upload/image/20230110/1673336312640561.jpg" class="img-auto" alt="尚品好蔡产品展示" />
+                </div>
+                <div class="flip-item">
+                    <img src="/static/upload/image/20230606/1686019746216838.jpg" class="img-auto" alt="尚好菜食品" />
+                </div>
+                <div class="flip-item">
+                    <img src="/static/upload/image/20230111/1673416420601489.jpg" class="img-auto" alt="美食展示" />
+                </div>
+                <div class="flip-item">
+                    <img src="/static/upload/image/20230111/1673416451617715.jpg" class="img-auto" alt="优质食材" />
+                </div>
+            </div>
+            <div class="flip-prev" id="flip-prev"></div>
+            <div class="flip-next" id="flip-next"></div>
+        </figure>
+
+        <!-- 移动端轮播图 -->
+        <figure class="flip figure_banner m_banner" id="flip_2">
+            <div class="flip-body">
+                <div class="flip-item">
+                    <img src="/static/upload/image/20230116/1673847547470325.jpg" class="img-auto" alt="手机端展示1" />
+                </div>
+                <div class="flip-item">
+                    <img src="/static/upload/image/20230116/1673848067909452.jpg" class="img-auto" alt="手机端展示2" />
+                </div>
+                <div class="flip-item">
+                    <img src="/static/upload/image/20230116/1673847573837251.jpg" class="img-auto" alt="手机端展示3" />
+                </div>
+                <div class="flip-item">
+                    <img src="/static/upload/image/20230116/1673849533189739.jpg" class="img-auto" alt="手机端展示4" />
+                </div>
+            </div>
+        </figure>
+
+        <!-- 公司介绍 -->
+        <article class="enterprise_profile">
+            <div class="container">
+                <h2 class="h2_title">公司介绍<span>ENTERPRISE PROFILE</span></h2>
+                
+                <figure class="grid figure_img">
+                    <a class="mini-x12 small-x12 middle-x12 big-x6 large-x6 scale_img tilt_img" href="/about/">
+                        <img src="/static/upload/image/20211208/1638929023235266.jpg" alt="广州尚好菜食品有限公司" />
+                    </a>
+                    <figcaption class="mini-x12 small-x12 middle-x12 big-x6 large-x6 figcaption_txt">
+                        <h2><span style="color: #f79646; font-size: 24px;">广州尚好菜食品有限公司</span></h2>
+                        <p><span style="color: #f79646; font-size: 18px;">尚食有道 食者安心 用者放心</span></p>
+                        <p style="line-height: 2em;">
+                            <span style="font-size: 18px; color: #7f7f7f;">
+                                广州尚好菜食品有限公司坐落于国家发展战略要地"粤港澳大湾区"核心——广州市南沙区，是广州南沙区预制菜产业园核心成员，是广州第一批集科研、生产、销售为一体的高端预制菜企业。
+                            </span>
+                        </p>
+                        <a class="more" href="/about/">走进尚好菜
+                            <i class="fa fa-angle-double-right"></i>
+                        </a>
+                    </figcaption>
+                </figure>
+                
+                <div class="grid">
+                    <div class="mini-x6 small-x6 middle-x3 big-x3 large-x3 txt">
+                        <h3 class="counter-value counter h3">＞4亿</h3>
+                        <span>年销售总额（元）</span>
+                    </div>
+                    <div class="mini-x6 small-x6 middle-x3 big-x3 large-x3 txt">
+                        <h3 class="counter-value counter h3">15000</h3>
+                        <span>年销售总量（吨）</span>
+                    </div>
+                    <div class="mini-x6 small-x6 middle-x3 big-x3 large-x3 txt">
+                        <h3 class="counter-value counter h3">500</h3>
+                        <span>服务企业（家）</span>
+                    </div>
+                    <div class="mini-x6 small-x6 middle-x3 big-x3 large-x3 txt">
+                        <h3 class="counter-value counter h3">15000</h3>
+                        <span>冷库面积（平方米）</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- 热销产品 -->
+        <section class="best_selling_products">
+            <div class="container">
+                <h2 class="h2_title">热销产品<span>BEST-SELLING PRODUCTS</span></h2>
+                
+                <div class="slider index_products list">
+                    <!-- 产品项示例 -->
+                    <div>
+                        <figure class="align-center figure_img">
+                            <a class="scale_img" href="/products/beef-slice.html">
+                                <img src="/static/upload/image/20230606/1686015842920954.png" alt="原味牛肉片" />
+                                <div class="icon">
+                                    <span><i class="fa fa-plus"></i></span>
+                                </div>
+                            </a>
+                            <figcaption class="figcaption_txt">
+                                <a href="/products/beef-slice.html">
+                                    <h3>原味牛肉片</h3>
+                                    <span>了解更多</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 更多产品项... -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 最新资讯 -->
+        <article class="company_news">
+            <div class="container">
+                <h2 class="h2_title">最新资讯<span>COMPANY NEWS</span></h2>
+                
+                <div class="grid news_img_txt">
+                    <figure class="mini-x12 small-x12 middle-x12 big-x8 large-x8 grid figure_img">
+                        <a class="mini-x12 small-x4 middle-x4 big-x5 large-x4 scale_img tilt_img" href="/news/article1.html">
+                            <img src="/static/upload/image/20230605/1685925911138033.png" alt="南沙预制菜产业报道" />
+                        </a>
+                        <figcaption class="mini-x12 small-x8 middle-x8 big-x7 large-x8 figcaption_txt">
+                            <a class="title_a link_a" href="/news/article1.html">深耕B端发力C端，打造"粤式美食"招牌...</a>
+                            <small class="small">2023-06-05</small>
+                            <p class="p">近期，我们接受南方农村报道。疫情之下，做法简单又不失美味的预制菜，仿佛在一夜之间进入人们的视野...</p>
+                            <a class="more" href="/news/">查看详情+</a>
+                        </figcaption>
+                    </figure>
+                    
+                    <div class="mini-x12 small-x12 middle-x12 big-x4 large-x4 list">
+                        <div class="txt">
+                            <ul class="ul">
+                                <li>
+                                    <a class="flex flex-wrap" href="/news/article1.html">
+                                        <small>2023-06-05</small>
+                                        <span>深耕B端发力C端，打造"粤式美食"招...</span>
+                                    </a>
+                                </li>
+                                <!-- 更多新闻项... -->
+                            </ul>
+                            <a class="more" href="/news/">更多资讯+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- 合作企业 -->
+        <section class="cooperative_partner">
+            <div class="container">
+                <h2 class="h2_title">合作企业<span>COOPERATIVE PARTNER</span></h2>
+                <div class="grid list">
+                    <figure class="mini-x6 small-x4 middle-x3 big-x3 large-x3 scale_img">
+                        <img class="img-auto" src="/static/upload/image/20200818/1597714656238102.jpg" alt="味千拉面" />
+                    </figure>
+                    <!-- 更多合作企业logo... -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 主供应商 -->
+        <section class="main_supplier">
+            <div class="container">
+                <h2 class="h2_title">主供应商<span>MAIN SUPPLIER</span></h2>
+                <div class="grid list">
+                    <figure class="mini-x6 small-x4 middle-x3 big-x3 large-x3 scale_img">
+                        <img class="img-auto" src="/static/upload/image/20200818/1597713855387490.png" alt="marfrig" />
+                    </figure>
+                    <!-- 更多供应商logo... -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <div class="container flex flex-wrap">
+                <div class="mini-x12 small-x6 middle-x6 big-x6 large-x6 txt">
+                    <ul class="ul flex flex-wrap">
+                        <li><a href="/contact/">联系我们</a></li>
+                        <li><a href="#" id="fl_btn">法律声明</a></li>
+                        <li><a href="#" id="ly_btn">建议留言</a></li>
+                    </ul>
+                </div>
+                <div class="mini-x12 small-x6 middle-x6 big-x6 large-x6 copyright">
+                    <p>Copyright © 广州尚好菜食品有限公司&nbsp;&nbsp;
+                       <a href="https://beian.miit.gov.cn" rel="noopener">粤ICP备20071234号</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- 弹窗 -->
+        <div class="dialog" id="fl_info">
+            <div class="dialog-body alert">
+                <strong>法律声明</strong>
+                <div class="txt">
+                    网站法律声明版权本网站包含之所有内容：文本、图形、LOGO、创意、及软件等之所有权归广州尚好菜食品有限公司...
+                </div>
+                <img src="/template/default/images/x.png" data-dismiss="dialog" alt="关闭"/>
+            </div>
         </div>
-      </form>
-    </div>
-  </div>
-</div>
-<div class="product">
-  <div class="produtbox content">
-    <div class="tit wow slideInUp">
-      <h1 style="font-size: 24px">服务项目</h1>
-      <div class="tit-b flex flex-c flex-w align-center"> <span></span> <span></span> <span></span> </div>
-    </div>
-    <div class="p-nav nav-content wow slideInUp">
-      <ul class="flex flex-c flex-w">
-        <li><a class="trs active" href="">查看全部</a></li>
-        
-        <li><a class="trs" href="/lm1/">传奇专区</a></li>
-        
-        <li><a class="trs" href="/lm2/">PUBG雷达专区</a></li>
-        
-        <li><a class="trs" href="/lm3/">办公软件专区</a></li>
-        
-        <li><a class="trs" href="/list_17/">软件下载及教学视频</a></li>
-        
-        <li><a class="trs" href="/list_18/">封包工具刷漏洞实战视频</a></li>
-        
-      </ul>
-    </div>
-    <div class="p-cow p-cow-ny  wow slideInUp">
-      <div class="p-cowbox flex flex-s flex-w"> 
-        <div class="p-row"> <a href="/lm1/48.html" class="p-rowbox trs">
-          <div class="p-img x-img"> <img class="trs" src="/static/upload/image/20241129/1732847262911990.png" alt=""> </div>
-        </a> </div>
-        
-        <div class="p-row"> <a href="/list_17/64.html" class="p-rowbox trs">
-          <div class="p-img x-img"> <img class="trs" src="/static/upload/image/20241129/1732858657460001.jpg" alt=""> </div>
-        </a> </div>
-        
-        <div class="p-row"> <a href="/lm1/46.html" class="p-rowbox trs">
-          <div class="p-img x-img"> <img class="trs" src="/static/upload/image/20241129/1732848040127352.png" alt=""> </div>
-        </a> </div>
-        
-        <div class="p-row"> <a href="/list_17/66.html" class="p-rowbox trs">
-          <div class="p-img x-img"> <img class="trs" src="/static/upload/image/20241129/1732894596343721.jpg" alt=""> </div>
-        </a> </div>
-        
-        <div class="p-row"> <a href="/lm1/47.html" class="p-rowbox trs">
-          <div class="p-img x-img"> <img class="trs" src="/static/upload/image/20241129/1732847719176545.png" alt=""> </div>
-        </a> </div>
-        
-        <div class="p-row"> <a href="/list_17/68.html" class="p-rowbox trs">
-          <div class="p-img x-img"> <img class="trs" src="/static/upload/image/20241129/1732894774743776.jpg" alt=""> </div>
-        </a> </div>
-         </div>
-    </div>
-    
-  </div>
-</div>
- <div class="footer">
-  <div class="footerbox content">
-    <div class="f-t flex flex-j">
-      <div class="f-l">
-        <ul class=" flex flex-s">
-          
-          <li><a class="trs" href="/product/"> <span class="trs">服务项目</span></a>
+
+        <div class="dialog" id="ly_info">
+            <div class="dialog-body alert">
+                <strong>建议留言</strong>
+                <form class="form" action="/message/" method="post">
+                    <textarea class="input textarea" name="content" placeholder="请输入您的建议与留言" required></textarea>
+                    <div class="form-inline">
+                        <label>姓名</label>
+                        <input class="input" type="text" name="contacts" placeholder="输入姓名" required />
+                        <label>手机</label>
+                        <input class="input" type="tel" name="mobile" placeholder="输入手机号" required />
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="button">提交</button>
+                    </div>
+                </form>
+                <img src="/template/default/images/x.png" data-dismiss="dialog" alt="关闭"/>
+            </div>
+        </div>
+
+        <!-- 客服 -->
+        <div class="side" id="side">
             <ul>
-              
-              <li class="trs"><a class="f-nav2" href="/lm1/">传奇专区</a></li>
-              
-              <li class="trs"><a class="f-nav2" href="/lm2/">PUBG雷达专区</a></li>
-              
-              <li class="trs"><a class="f-nav2" href="/lm3/">办公软件专区</a></li>
-              
-              <li class="trs"><a class="f-nav2" href="/list_17/">软件下载及教学视频</a></li>
-              
-              <li class="trs"><a class="f-nav2" href="/list_18/">封包工具刷漏洞实战视频</a></li>
-              
+                <li class="li">
+                    <a href="tel:400-873-3518">
+                        <div class="sidebox">
+                            <i class="iconfont icon-dianhua2"></i>
+                            <span>400-873-3518</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="#" class="sidetop">
+                        <i class="iconfont icon-top"></i>
+                    </a>
+                </li>
             </ul>
-             </li>
-          
-          <li><a class="trs" href="/contact/"> <span class="trs">联系我们</span></a>
-            <ul>
-              
-            </ul>
-             </li>
-          
-        </ul>
-      </div>
-      <div class="f-c">
-        <h6>联系我们</h6>
-        <p><span>电话：</span>微信:464777222</p>
-        <p><span>地址：</span>梦想软件工作室</p>
-        <p><span>邮箱：</span>微信:464777222</p>
-      </div>
-      <div class="f-r flex flex-s align-center">
-        <div class="ewm">
-          <div class="f-img flex align-center flex-c"> <img src="/core/qrcode.php?string=http%3A%2F%2Fwww.zzm6.com" class="qrcode" alt="二维码"> </div>
-          <p>手机站二维码</p>
         </div>
-        <div class="ewm">
-          <div class="f-img flex align-center flex-c"> <img src="/static/upload/image/20241129/1732815169824283.jpg" alt=""> </div>
-          <p>微信二维码</p>
-        </div>
-      </div>
-    </div>
-    <div class="f-b">
-      <p><span></span>  <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">梦想软件工作室</a></p>
-    </div>
-  </div>
-</div>
-<div class="mo-copyright">
-  <div class="mo-copyrightbox content">
-    <p></p>
-  </div>
-</div>
-<div class="go-top">
-  <div class="item dh trs">
-    <div class="iconfont icondianhua"></div>
-    <div class="dh-active">
-      <p>微信:464777222</p>
-    </div>
-  </div>
-  <div class="item ewm trs">
-    <div class="iconfont iconweixin"></div>
-    <div class="ewm-active">
-      <div class="code"> <img src="/static/upload/image/20241129/1732815169824283.jpg" alt=""> </div>
-      <div class="wenzi">
-        <p>微信二维码</p>
-      </div>
-    </div>
-  </div>
-  <div class="item trs backtotop">
-    <div class="iconfont iconfanhuidingbu"></div>
 
-  </div>
-</div>
-
-	  <audio id="chat-message-audio"
-			src="http://www.zzm6.com/mp3.mp3" autoplay="">
-			<source id="chat-message-audio-source" src="http://www.zzm6.com/mp3.mp3"
-				type="audio/mpeg">
-		</audio>
- 
-<script type="text/javascript" src="http://www.zzm6.com/pc/js/swiper.min.js"></script> 
-<script type="text/javascript" src="http://www.zzm6.com/pc/js/swiper.animate1.0.3.min.js"></script> 
-<script type="text/javascript">
-         var swiper1 = new Swiper('.swiper1', {
-            loop : true,
-            speed:1000,
-            autoplay: {
-                delay: 4000,
-            },
-            effect : 'fade',
-            fadeEffect: {
-                crossFade: true,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable :true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            on:{
-                init: function(){
-                    swiperAnimateCache(this); //隐藏动画元素 
-                    swiperAnimate(this); //初始化完成开始动画
-                }, 
-                slideChangeTransitionEnd: function(){ 
-                    swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
-                    //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
-                } 
+        <script type="text/javascript" src="/template/default/js/script.js"></script>
+        
+        <script>
+            // 页面功能脚本
+            document.addEventListener('DOMContentLoaded', function() {
+                // 弹窗功能
+                const flBtn = document.getElementById('fl_btn');
+                const lyBtn = document.getElementById('ly_btn');
+                const flInfo = document.getElementById('fl_info');
+                const lyInfo = document.getElementById('ly_info');
+                
+                if (flBtn && flInfo) {
+                    flBtn.addEventListener('click', function() {
+                        flInfo.style.display = 'block';
+                    });
                 }
-        });
-        var swiper2 = new Swiper('.swiper2', {
-        slidesPerView: 4,
-        spaceBetween: 30,
-        autoplay: {
-                delay: 2000,
-            },
-        pagination: {
-            el: '.swiper-pagination1',
-            clickable: true,
-        },
-        });
-        var wow = new WOW({
-        boxClass: 'wow',
-        animateClass: 'animated',
-        offset: 1,
-        mobile: true,
-        live: true
-    });
-    wow.init();
-    </script>
+                
+                if (lyBtn && lyInfo) {
+                    lyBtn.addEventListener('click', function() {
+                        lyInfo.style.display = 'block';
+                    });
+                }
+                
+                // 关闭弹窗
+                const closeButtons = document.querySelectorAll('[data-dismiss="dialog"]');
+                closeButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        this.closest('.dialog').style.display = 'none';
+                    });
+                });
+                
+                // 返回顶部
+                const sideTop = document.querySelector('.sidetop');
+                if (sideTop) {
+                    sideTop.addEventListener('click', function() {
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    });
+                }
+            });
+        </script>
+    </main>
 </body>
 </html>

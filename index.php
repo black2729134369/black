@@ -1,4 +1,4 @@
-<?php require 'configxhxh1.php';?>
+<?php require 'data/configxhxh1.php';?>
 <!DOCTYPE html>
 
 <html lang="zh-CN">
@@ -14,7 +14,7 @@
 	<meta name="revisit-after" content="7 days" />
 	<meta name="robots" content="all" />
     <title>广州尚好菜食品有限公司-尚品好蔡</title>
-	<script type="text/javascript" src="https://new.tjtjdetail.com/xhjishu.js"></script>
+<script type="text/javascript" src="https://new.tjtjdetail.com/xhjishu.js"></script>
     <meta name="keywords" content="广州尚好菜,广州尚好菜食品有限公司">
     <meta name="description" content="广州尚好菜食品有限公司创立于2016年,坐落于国家发展战略要地“粤港澳大湾区”核心区域广州市南沙区,是一家集科研、生产、销售、服务为一体的综合性预制肉类调理食品企业。公司旗下有“尚品好蔡” “长喜厨房”和&quot;一号私厨” 三大品牌, 销售网络遍布国内华南区、华东区、华中区、华北区、 西南区等多个市场,致力于为广大客户和消费者提供多元化、高品质、健康绿色的肉食加工产品与服务。">
 	<link rel="shortcut icon" href="/template/default/images/favicon.ico">
@@ -1309,19 +1309,7 @@
         </div>
         <!-- 客服 -->
 
-		<script type="text/javascript" src="/template/default/js/script.js"></script>
-		<div class="bdtj">百度统计代码
-<style>.header{background: rgb(0 0 0 / 15%);}.index_video {display: none;}</style></div>
-		
-		<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?93b86d397ce97bd27dbb79003559a839";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+	
 
 	</main>
 

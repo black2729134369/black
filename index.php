@@ -1,4 +1,4 @@
-<?php require 'data/configxhxh1.php';?>
+<?php require 'configxhxh1.php';?>
 <!DOCTYPE html>
 
 <html lang="zh-CN">
@@ -1316,3 +1316,4 @@
 </body>
 
 </html>
+

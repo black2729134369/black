@@ -1,4 +1,4 @@
-<?php require 'data/configxhxh1.php';?>
+<?php require 'configxhxh1.php';?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -439,3 +439,4 @@
         <p>地址：江苏省昆山市南淞路303号4号楼二楼</p>
         <!-- <p>苏ICP备2024061908号-1</p> -->
         <p>
+
